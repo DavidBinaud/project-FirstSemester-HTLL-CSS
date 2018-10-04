@@ -1,0 +1,41 @@
+Git peut demander les identifiants durant certaines procédures
+
+créer un nouveau répertoire	
+ouvrir un terminal depuis ce dernier
+
+
+
+UNE SEULE FOIS// recupère tout le projet sur git mais à ne faire que la première fois
+
+git clone https://github.com/DavidBinaud/project.git       
+
+
+
+
+
+// après pour interagir avec git
+
+1//en premier dans le dossier du projet			// pour vérifier l'état du projet local
+git init						git status
+
+
+
+2//Ensuite soit pour récupérer les modifications effectuée sur git
+git pull
+
+
+ou
+2// pour ajouter des modification localement
+git add Adressedufichier
+
++
+
+git commit -m "messagedescriptif"
+
++
+
+git push origin master
+// envoi terminé
+
+
+
