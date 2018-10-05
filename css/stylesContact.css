@@ -1,22 +1,27 @@
-
-
-body
-{
-	background-color: #C0C0C0;
-	width: 900px;
+/* BODY */
+body{
+	background-color: grey;
+	width: 100%;
+	height: 100%;
+	text-align: justify;
 }
 
 
-h3
-{
-	background-color: #00DDFF;
-	color: #FFFFFF;
-	width: 850px;
+
+/* NAV */
+nav {
+	width: 90%;
+	display: flex;
+}
+nav > div{
+
+	display: inline;
 }
 
-h2
-{
-	background-color: #DD0000;
-	color: #FFFFFF;
-	width: 850px;
+
+
+h2 {
+	display: inline;
+	position:center; 
+	background-color: cyan;
 }
