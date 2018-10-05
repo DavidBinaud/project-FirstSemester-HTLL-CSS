@@ -21,7 +21,7 @@ git init						git status
 
 
 2//Ensuite soit pour récupérer les modifications effectuée sur git
-git pull
+git pull origin master
 
 
 ou
