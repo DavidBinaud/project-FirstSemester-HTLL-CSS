@@ -1,0 +1,37 @@
+.dev
+{
+	width: 300px;
+	height: 200px;
+}
+
+.exref
+{
+	width: 300px;
+	height: 200px;
+}
+
+.tman
+{
+	width: 300px;
+	height: 200px;
+}
+
+h3
+{
+	background-color: #00DDFF;
+	color: #FFFFFF;
+	width: 850px;
+}
+
+body
+{
+	background-color: #C0C0C0;
+	width: 900px;
+}
+
+h2
+{
+	background-color: #DD0000;
+	color: #FFFFFF;
+	width: 850px;
+}
