@@ -1,0 +1,10 @@
+tbody tr {
+	background-color: gray;
+	text-align: center;
+	border: 5px;
+	border-color: black;
+}
+table {
+	border: 5px;
+	border-color: black;
+}
