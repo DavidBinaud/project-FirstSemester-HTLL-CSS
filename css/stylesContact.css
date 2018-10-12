@@ -4,7 +4,6 @@ body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font-color: red;
 }
 
 
@@ -22,14 +21,16 @@ nav {
 	
 	}
 
+
 nav > ul{
 	display:flex;
 	flex-direction: row;
 	margin: 0 auto;
+	width: 60%;
 }
 
-nav li{
-
+nav > ul > li{
+	margin: 0 auto;
 	list-style-type: none;
 	border-top:4px solid #2d2d2d;
 	border-bottom:4px solid #2d2d2d;
@@ -39,11 +40,10 @@ nav li{
 	padding: 5px;
 	text-align: center;
 	letter-spacing: 1px;
+	flex-grow:1;
 }
 
-nav > ul li > ul {
 
-}
 
 nav a{
 	color:#646464 ;
@@ -59,18 +59,31 @@ nav .submenu:hover{
 	display: flex;
 	flex-direction: column;
 }
+/* END NAV */
 
 
+
+
+/*	MAIN */
 
 h2 {
 	display: block; 
 	text-align:center;
 }
 
+
+
+
+
+/* form */
 fieldset {
 	width: 50%;
 	text-align: left;
 	display: inline;
+}
+
+textarea{
+	width:99%;
 }
 
 .required{
@@ -81,7 +94,7 @@ fieldset {
 	display: block;
 	margin:0 auto;
 }
-
+/* end form */
 
 
 
