@@ -6,7 +6,7 @@
 		<head>
 
 			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
-			<link rel="stylesheet" type="text/css" href="./css/styles.css">
+			<link rel="stylesheet" type="text/css" href="./css/stylesContact.css">
 			<title>Nous Contacter</title>    <!-- TITRE A RAJOUTER-->
 
 		</head>
@@ -14,6 +14,37 @@
 		<body>
 			<header>
 			
+				<nav>
+					<div>
+						<a href="./index.html">Accueil</a>
+					</div>
+
+					<div>
+						<a href="./contact.html">Contact</a>
+					</div>
+
+					<div>
+						<a href="./team.html">Team</a>
+					</div>
+
+					<div>
+						<a href="./press.html">Press</a>
+					</div>
+
+					<div>
+						<a href="./joinus.html">Join Us</a>
+						<div class="submenu">
+							<a href="./Dev.html">Développeur</a>
+							<a href="./TrafficManager.html">Traffic Manager</a>
+							<a href="./RefExpert.html">Expert en référencement</a>
+						</div>
+					</div>
+
+					<div>
+						<a href="./faq.html">FAQ</a>
+					</div>
+
+				</nav>
 
 			<!-- <nav> </nav>  COMMUN AUX PAGES // 1 personne s'occupe du nav  
 			Mettre en place des pages en fr et en anglais avec choix depuis le nav?
@@ -24,83 +55,83 @@
 
 
 			<main>	
-
+				<h2>Nous contacter </h2>
 				<!-- Page du Formulaire // demander au prof si formulaire en mode get ou post-->
-				
-				<form action="sendToMySecondYearInIut.php" method="get">
-  						
-<!--i-->  			<fieldset ><legend>Informations Personnelles</legend>
-						<p>
-  							<label for="lastname" >Nom<span class="required" >*</span></label>
-							<input id="lastname" name="lastname" type="text" placeholder="Entrez votre nom ici"  pattern="^[a-zA-Z]*$" autofocus required>
-						</p>
+				<article>
+					<form action="sendToContactForm.php" method="get">
+	  						
+	<!--i-->  			<fieldset ><legend>Informations Personnelles</legend>
+							<p>
+	  							<label for="lastname" >Nom<span class="required" >*</span></label>
+								<input id="lastname" name="lastname" type="text" placeholder="Entrez votre nom ici"  pattern="^[a-zA-Z]*$" autofocus required>
+							</p>
 
 
-						<p>
-							<label for="firstname">Prénom<span class="required">*</span></label>
-							<input id="firstname" name="firstname" type="text" placeholder="Entrez votre prénom ici" pattern="^[a-zA-Z]*$" required>
-						</p>
+							<p>
+								<label for="firstname">Prénom<span class="required">*</span></label>
+								<input id="firstname" name="firstname" type="text" placeholder="Entrez votre prénom ici" pattern="^[a-zA-Z]*$" required>
+							</p>
 
 
-						<p>
-							<label for="email">email<span class="required">*</span></label>
-							<input id="email" name="email" type="email" placeholder="yourmail@domain.com" required>
-						</p>
+							<p>
+								<label for="email">email<span class="required">*</span></label>
+								<input id="email" name="email" type="email" placeholder="yourmail@domain.com" required>
+							</p>
 
 
-						<p>
-							<label for="postcode">Code Postal</label>
-							<input id="postcode" name="postcode" type="text" placeholder="" pattern="^[0-9]{5}$" ><!--Mettre un pattern sur post code Fait mais a du mettre en mode text au lieu de number// trouver comment patern un number pattern="^[0-9]{5}$"-->
+							<p>
+								<label for="postcode">Code Postal</label>
+								<input id="postcode" name="postcode" type="text" placeholder="" pattern="^[0-9]{5}$" ><!--Mettre un pattern sur post code Fait mais a du mettre en mode text au lieu de number// trouver comment patern un number pattern="^[0-9]{5}$"-->
 
-							<!-- TEST avec type number
-							<label for="postcodet">Code Postal</label>
-							<input name="postcodet" type="number" placeholder="12345" min="00000" max="99999">	
-							-->
-						</p>
-
-
-						<p>
-							<label for="CountryOrigin">Pays d'origine<span class="required">*</span></label>
-							<select id="CountryOrigin" name="PaysOrigine">
-								<option value="fr" selected>France</option>
-								<option value="bel">Belgique</option>
-								<option value="lux" >Luxembourg</option>
-								<option value="ca">Canada</option>
-								<option value="eng">Angleterre</option>
-								<option value="other">Autre</option> <!-- Faire en sorte qu'un input type text s'affiche si Autre sélectionné // Compliqué sans js-->
-							</select>
-						</p>
-
-					</fieldset>
-
-<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via?<span class="required">*</span></legend>
-						 <!-- Trouver comment le required// Fait avec checked-->
-						<input id="howfac" name="how" type="radio" value="fac">Facebook
-						<input id="howtwi" name="how" type="radio" value="twi">Twitter
-						<input id="howrad" name="how" type="radio" value="rad">Radio
-						<input id="howint" name="how" type="radio" value="int" checked>Internet
-						<input id="howadv" name="how" type="radio" value="adv">Conseillé par la famille ou amis
-						<input id="hownone" name="how" type="radio" value="none">Aucune des options
-					</fieldset> 
+								<!-- TEST avec type number
+								<label for="postcodet">Code Postal</label>
+								<input name="postcodet" type="number" placeholder="12345" min="00000" max="99999">	
+								-->
+							</p>
 
 
-<!--iii-->				<fieldset>
-							<legend>Date à laquelle vous souhaitez être recontacté<span class="required">*</span></legend>
-							<input name="date" type="date" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné -->
+							<p>
+								<label for="CountryOrigin">Pays d'origine<span class="required">*</span></label>
+								<select id="CountryOrigin" name="PaysOrigine">
+									<option value="fr" selected>France</option>
+									<option value="bel">Belgique</option>
+									<option value="lux" >Luxembourg</option>
+									<option value="ca">Canada</option>
+									<option value="eng">Angleterre</option>
+									<option value="other">Autre</option> <!-- Faire en sorte qu'un input type text s'affiche si Autre sélectionné // Compliqué sans js-->
+								</select>
+							</p>
 
-						</fieldset>	
-
-
-
-<!--iv-->				<fieldset>
-							<legend>Avez-vous une remarque?</legend>
-							<label for="Msg"></label>
-							<textarea id="Msg" name="Msg" rows="5" cols="75" ></textarea>
 						</fieldset>
 
-  					<input type="submit" value="Envoyer">
-  				</form>
+	<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via?<span class="required">*</span></legend>
+							 <!-- Trouver comment le required// Fait avec checked-->
+							<input id="howfac" name="how" type="radio" value="fac">Facebook
+							<input id="howtwi" name="how" type="radio" value="twi">Twitter
+							<input id="howrad" name="how" type="radio" value="rad">Radio
+							<input id="howint" name="how" type="radio" value="int" checked>Internet
+							<input id="howadv" name="how" type="radio" value="adv">Conseillé par la famille ou amis
+							<input id="hownone" name="how" type="radio" value="none">Aucune des options
+						</fieldset> 
 
+
+	<!--iii-->				<fieldset>
+								<legend>Date à laquelle vous souhaitez être recontacté<span class="required">*</span></legend>
+								<input name="date" type="date" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné // need js-->
+
+							</fieldset>	
+
+
+
+	<!--iv-->				<fieldset>
+								<legend>Avez-vous une remarque?</legend>
+								<label for="Msg"></label>
+								<textarea id="Msg" name="Msg" rows="5" cols="75" ></textarea>
+							</fieldset>
+
+	  					<input type="submit" value="Envoyer">
+	  				</form>
+	  			</article>
 			</main>
 		
 
