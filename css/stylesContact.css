@@ -11,16 +11,22 @@ body{
 
 /* NAV */
 header{
-	display: flex;
+	margin:0 auto;
 }
 
 nav {
 	width: 100%;
-	display: inline;
-	flex-direction: row;
 	text-align: center;
+	margin:0 auto;
+	display: block
 	
 	}
+
+nav > ul{
+	display:flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
 
 nav li{
 
@@ -35,6 +41,10 @@ nav li{
 	letter-spacing: 1px;
 }
 
+nav > ul li > ul {
+
+}
+
 nav a{
 	color:#646464 ;
 
@@ -46,14 +56,14 @@ nav a{
 }
 
 nav .submenu:hover{
-	display: inline;
+	display: flex;
+	flex-direction: column;
 }
 
 
 
 h2 {
-	display: block;
-	position:center; 
+	display: block; 
 	text-align:center;
 }
 
@@ -61,6 +71,10 @@ fieldset {
 	width: 50%;
 	text-align: left;
 	display: inline;
+}
+
+.required{
+	color: red;
 }
 
 .input{
