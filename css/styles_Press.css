@@ -23,13 +23,7 @@ p
 {
 	width: 95%;
 }
-tbody tr {
-	background-color: gray;
-	text-align: center;
-	border: 5px;
-	border-color: black;
-}
-table {
-	border: 5px;
-	border-color: black;
+#Andy {
+	width: 225px;
+	height:400px;
 }
