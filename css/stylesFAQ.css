@@ -1,0 +1,14 @@
+#mainFAQ {
+	display:flex;
+	flex-direction:row;
+}
+
+#SizeImageInterrogationMarkFAQ {
+	width:100px;
+	height:100px;
+}
+
+nav {
+	display:flex;
+	flex-direction:row;
+}
