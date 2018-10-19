@@ -14,6 +14,7 @@ nav > a
 	background-color: #c0d5c2;
 	padding: 10px;
 	border-left: 2px solid black;
+
 }
 
 nav > div
@@ -25,6 +26,7 @@ nav > div
 	border: 2px solid black;
 	width: 100px;
 	text-align: center;
+	flex-grow: 1;
 }
 
 .submenu
@@ -57,50 +59,40 @@ a:hover {color:#000000;}
 
 
 
-#mainFAQ {
-	display:flex;
-	flex-direction:row;
-}
 
-#SizeImageInterrogationMarkFAQ {
-	width:100px;
-	height:100px;
-}
 
-.DivBody {
-	display:flex;
-	flex-direction:column;
-	flex-grow:1;
-}
+
+
+
 
 body {
-	margin : auto;
-	width : 70%;
-	background-color : green;
-	display-flex;
-}
-
-html {
-background-color : blue;
+    margin : auto;
+    width:80%;
+    background-color : green;
 }
 
 article {
-
-background-color : red;
-	
+    background-color : red;
 }
 
-div .GrilleArticle {
-	display:flex;
-	flex-direction:row;
-	flex-grow:1;
+.GrilleQuestion {
+    display:flex;
+    flex-wrap: wrap;
 }
 
- #BlockQuestion {
- 	display:inline-block;
- 	flex-grow:1;
-	padding:80px;
-	border:2px solid black;
-	margin:4px;
+.GrilleQuestion > article {
+    border:2px solid black;
+    margin:5px;
+    flex-grow: 1;
+    min-height: 300px; 
+    min-width: 300px;
+    max-width: 300px
+    max-height: 300px;
+}
 
- }
+#SizeImageInterrogationMarkFAQ {
+	width:200px;
+	height:200px;
+}
+
+
