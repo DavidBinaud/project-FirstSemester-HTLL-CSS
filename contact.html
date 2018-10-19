@@ -6,6 +6,7 @@
 		<head>
 
 			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">  <!-- base responsive taille écran -->
 			<link rel="stylesheet" type="text/css" href="./css/stylesContact.css">
 			<title>Nous Contacter</title>    <!-- TITRE A RAJOUTER-->
 
@@ -15,34 +16,36 @@
 			<header>
 			
 				<nav>
-					<div>
+					<ul>
+						<li>
 						<a href="./index.html">Accueil</a>
-					</div>
+						</li>
 
-					<div>
-						<a href="./contact.html">Contact</a>
-					</div>
+						<li>
+							<a href="./contact.html">Contact</a>
+						</li>
 
-					<div>
-						<a href="./team.html">Team</a>
-					</div>
+						<li>
+							<a href="./team.html">Team</a>
+						</li>
 
-					<div>
-						<a href="./press.html">Press</a>
-					</div>
+						<li>
+							<a href="./press.html">Press</a>
+						</li>
 
-					<div>
-						<a href="./joinus.html">Join Us</a>
-						<div class="submenu">
-							<a href="./Dev.html">Développeur</a>
-							<a href="./TrafficManager.html">Traffic Manager</a>
-							<a href="./RefExpert.html">Expert en référencement</a>
-						</div>
-					</div>
+						<li>
+							<a href="./joinus.html">Join Us</a>
+							<ul class="submenu">
+								<li><a  href="./Dev.html">Développeur</a></li>
+								<li><a href="./TrafficManager.html">Traffic Manager</a></li>
+								<li><a href="./RefExpert.html">Expert en référencement</a></li>
+							</ul>
+						</li>
 
-					<div>
-						<a href="./faq.html">FAQ</a>
-					</div>
+						<li>
+							<a href="./faq.html">FAQ</a>
+						</li>
+					</ul>
 
 				</nav>
 
@@ -104,7 +107,7 @@
 
 						</fieldset>
 
-	<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via?<span class="required">*</span></legend>
+	<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via<span class="required">*</span>?</legend>
 							 <!-- Trouver comment le required// Fait avec checked-->
 							<input id="howfac" name="how" type="radio" value="fac">Facebook
 							<input id="howtwi" name="how" type="radio" value="twi">Twitter
@@ -126,10 +129,10 @@
 	<!--iv-->				<fieldset>
 								<legend>Avez-vous une remarque?</legend>
 								<label for="Msg"></label>
-								<textarea id="Msg" name="Msg" rows="5" cols="75" ></textarea>
+								<textarea id="Msg" name="Msg" rows="5" ></textarea>
 							</fieldset>
 
-	  					<input type="submit" value="Envoyer">
+	  					<input type="submit" value="Envoyer" class="input">
 	  				</form>
 	  			</article>
 			</main>
