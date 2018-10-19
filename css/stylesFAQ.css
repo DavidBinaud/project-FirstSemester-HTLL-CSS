@@ -8,6 +8,11 @@
 	height:100px;
 }
 
+body {
+	margin : auto;
+	width : 70%;
+}
+
 nav
 {
 	width: 100%;
