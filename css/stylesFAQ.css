@@ -1,17 +1,3 @@
-#mainFAQ {
-	display:flex;
-	flex-direction:row;
-}
-
-#SizeImageInterrogationMarkFAQ {
-	width:100px;
-	height:100px;
-}
-
-body {
-	margin : auto;
-	width : 70%;
-}
 
 nav
 {
@@ -63,3 +49,58 @@ a:visited {color: #00BB00;}
 a:hover {text-decoration: underline;} 
 
 a:hover {color:#000000;}
+
+
+
+
+
+
+
+
+#mainFAQ {
+	display:flex;
+	flex-direction:row;
+}
+
+#SizeImageInterrogationMarkFAQ {
+	width:100px;
+	height:100px;
+}
+
+.DivBody {
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+}
+
+body {
+	margin : auto;
+	width : 70%;
+	background-color : green;
+	display-flex;
+}
+
+html {
+background-color : blue;
+}
+
+article {
+
+background-color : red;
+	
+}
+
+div .GrilleArticle {
+	display:flex;
+	flex-direction:row;
+	flex-grow:1;
+}
+
+ #BlockQuestion {
+ 	display:inline-block;
+ 	flex-grow:1;
+	padding:80px;
+	border:2px solid black;
+	margin:4px;
+
+ }
