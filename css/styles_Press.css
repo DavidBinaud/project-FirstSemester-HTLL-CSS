@@ -27,3 +27,22 @@ p
 	width: 225px;
 	height:400px;
 }
+/*Partie de la barre de progression */
+.progress_launching {
+    display: table;
+}
+
+.progress_launching div {
+    display: table-row;
+}
+
+label,
+progress {
+    display: table-cell;
+}
+
+label {
+    padding-right: 10px;
+    text-align: right;
+}
+/* fin de barre de progression*/
