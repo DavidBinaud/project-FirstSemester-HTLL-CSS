@@ -15,7 +15,7 @@ nav
 	height: 75px;
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: black;
 }
 
 nav > a
@@ -29,9 +29,9 @@ nav > div
 {
 	position: relative;
 	display: inline;
-	background-color: white;
+	background-color: black;
 	padding: 10px 0px;
-	border: 2px solid black;
+	border-left: 2px solid white;
 	width: 100px;
 	text-align: center;
 }
@@ -48,7 +48,7 @@ nav > div
 div:hover .submenu
 {
 	display:block;
-	background-color: white;
+	background-color: transparent;
 }
 
 a:link {color: green;}
@@ -57,4 +57,4 @@ a:visited {color: #00BB00;}
 
 a:hover {text-decoration: underline;} 
 
-a:hover {color:#000000;}
+a:hover {color:white;}
