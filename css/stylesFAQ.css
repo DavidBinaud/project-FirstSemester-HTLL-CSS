@@ -8,7 +8,53 @@
 	height:100px;
 }
 
-nav {
-	display:flex;
-	flex-direction:row;
+nav
+{
+	width: 100%;
+	margin: auto;
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
 }
+
+nav > a
+{
+	background-color: #c0d5c2;
+	padding: 10px;
+	border-left: 2px solid black;
+}
+
+nav > div
+{
+	position: relative;
+	display: inline;
+	background-color: white;
+	padding: 10px 0px;
+	border: 2px solid black;
+	width: 100px;
+	text-align: center;
+}
+
+.submenu
+{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	display:none;
+	background-color: #aca;
+}
+
+div:hover .submenu
+{
+	display:block;
+	background-color: white;
+}
+
+a:link {color: green;}
+
+a:visited {color: #00BB00;}
+
+a:hover {text-decoration: underline;} 
+
+a:hover {color:#000000;}
