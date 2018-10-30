@@ -68,6 +68,7 @@ a:hover {color:#000000;}
 body {
     margin : auto;
     width:80%;
+    max-width:1000px;
     background-color : green;
 }
 
@@ -84,9 +85,10 @@ article {
     border:2px solid black;
     margin:5px;
     flex-grow: 1;
-    min-height: 300px; 
+    margin:auto;
+    min-height: 300px;
     min-width: 300px;
-    max-width: 300px
+    max-width: 300px;
     max-height: 300px;
 }
 
