@@ -62,6 +62,7 @@ a:hover {color:#000000;}
 
 
 
+
 body {
 	background-color: blue;
 }
@@ -75,6 +76,7 @@ main {
     width:80%;
     max-width:1000px;
     background-color:green;
+    position:static;
 }
 
 article {
@@ -83,6 +85,16 @@ article {
 
 aside {
 
+	width:300px;
+	height:800px; 
+	background-color:red;
+	position:fixed;
+	top:100px;
+	right:10px;
+}
+
+aside li {
+	display:inline;
 }
 
 main > .GrilleQuestion {
@@ -91,29 +103,35 @@ main > .GrilleQuestion {
 	justify-content: space-evenly;
 }
 
+footer {
+	background-color:red;
+}
+
 .GrilleQuestion > article {
-    border:2px solid black;
-    margin:5px;
+    margin:10px;
     min-height: 300px;
     min-width: 300px;
     max-width: 300px;
     max-height: 300px;
+    text-align:center;
 }
-
-
-.couleur > li:nth-child (odd) {
-	background-color:yellow;
-}
-
-.couleur > li:nth-child(even) {
-	background-color:violet;
-}
-
-
 
 #SizeImageInterrogationMarkFAQ {
 	width:200px;
 	height:200px;
 }
+
+.couleur li:nth-child(odd) {background-color: green}
+.couleur li:nth-child(even) {background-color: yellow}
+
+
+
+
+
+
+
+
+
+
 
 
