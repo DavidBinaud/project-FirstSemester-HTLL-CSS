@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+body
+{
+	width: 80%;
+	margin: 0;
+  padding: 0;
+}
+
+.gants
+{
+	width: 100px;
+	height: 100px;
+=======
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
 body 
@@ -17,11 +30,17 @@ header
 	padding: 10px auto;
 	margin: 10px auto;
 
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 h1 
 {
+<<<<<<< HEAD
+	width: 100px;
+	height: 100px;
+=======
    font-size: 250%
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 h2
@@ -46,14 +65,31 @@ h3
 	width: 20%;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 nav
 {
 	display: flex;
 	flex-direction: row;
+<<<<<<< HEAD
 	width: 100%;
     margin : -10px auto;
     padding : auto;
     background-color: #0000BB;
+=======
+<<<<<<< HEAD
+	width:1020px;
+    margin : 10px auto;
+    background-color:white;
+=======
+	width: 800px;
+    margin : auto;
+    padding : auto;
+    background-color: white;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
+>>>>>>> 07e5a3f9008b3ee757a615f303b44b7ce6ab478c
     font-family: sans-serif;
 }
 
@@ -79,12 +115,20 @@ nav > div
 
 nav div:first-child
 {
+<<<<<<< HEAD
+	border-radius: 10px 0px 0px 10px; 
+=======
 	border-radius: 10px 0px 0px 10px;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 nav div:last-child
 {
+<<<<<<< HEAD
+	border-radius: 0px 10px 10px 0px; 
+=======
 	border-radius: 0px 10px 10px 0px;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 .submenu
@@ -100,6 +144,32 @@ div:hover .submenu
 {
 	display:block;
 	background-color: transparent;
+<<<<<<< HEAD
+}
+
+a:link 
+{
+	color: gold;
+	text-decoration: none;
+}
+
+a:visited {color: gold;}
+
+a:hover 
+{
+	color:gold;
+}
+
+#container
+{
+  width: 100%;
+}
+
+section
+{
+  padding: 5% 15%;
+  margin: 0 auto;
+=======
 }
 
 a:link 
@@ -262,4 +332,5 @@ img:last-of-type
   width: 50px;
   height: 50px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }

@@ -1,32 +1,52 @@
 
 nav
 {
-	width: 100%;
-	margin: auto;
-	height: 75px;
 	display: flex;
 	flex-direction: row;
+<<<<<<< HEAD
+	width:1020px;
+    margin : 10px auto;
+    background-color:white;
+    font-family: sans-serif;
+=======
 	background-color: black;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 nav > a
 {
-	background-color: #c0d5c2;
-	padding: 10px;
-	border-left: 2px solid black;
-
+	font-size : 22px;
+    padding : 5px;
+    text-decoration: none;
+    color: #262d35;
 }
 
 nav > div
 {
 	position: relative;
 	display: inline;
+<<<<<<< HEAD
+	background-color: #0000BB;
+	padding: 10px 0px;
+	border-left: 1px solid #000055;
+=======
 	background-color: black;
 	padding: 10px 0px;
 	border-left: 2px solid white;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 	width: 100px;
 	text-align: center;
-	flex-grow: 1;
+}
+
+
+nav div:first-child
+{
+	border-radius: 10px 0px 0px 10px; 
+}
+
+nav div:last-child
+{
+	border-radius: 0px 10px 10px 0px; 
 }
 
 .submenu
@@ -44,16 +64,25 @@ div:hover .submenu
 	background-color: transparent;
 }
 
-a:link {color: green;}
+a:link 
+{
+	color: gold;
+	text-decoration: none;
+}
 
-a:visited {color: #00BB00;}
+a:visited {color: gold;}
 
-a:hover {text-decoration: underline;} 
-
+<<<<<<< HEAD
+a:hover 
+{
+	color:gold;
+}
+=======
 <<<<<<< HEAD
 a:hover {color:white;}
 =======
 a:hover {color:#000000;}
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 
 
 
@@ -65,20 +94,19 @@ a:hover {color:#000000;}
 
 
 header {
-	background-color: yellow;
 }
 
 body {
-	background-color: blue;
 	display:flex;
     flex-direction:column;
+    background-color:#F4FEFE;
 }
 
 .GrilleQuestion {
 	display:flex;
-	flex-wrap;
-	margin:auto;
-    background-color:orange;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+    width:100%;
 }
 
 .GrilleQuestion > article {
@@ -90,35 +118,31 @@ body {
     text-align:center;
 }
 
+
 main {
     margin:auto;
     width:80%;
     max-width:1200px;
-    background-color:green;
     display:flex;
     flex-direction:row;
 }
 
-.section1 {
+.sectionArticle {
 	width:80%;
-	background-color: black;
 	display:flex;
 	flex-direction:column;
 }
 
 article {
-    background-color:red;
 }
 
-.section2 {
+.sectionAside {
 	width:20%;
-	background-color: purple;
 }
 
 aside {
 	max-width:240px;
 	height:800px; 
-	background-color:red;
 	position:fixed;
 ;
 }
@@ -127,33 +151,51 @@ aside li {
 	display:inline;
 }
 
-
-
-footer {
-	background-color:red;
+.textarea {
+	background-color: #0000BB;
 }
 
-#SizeImageInterrogationMarkFAQ {
+footer {
+}
+
+.ImageBandeau {
 	width:200px;
 	height:200px;
 }
 
-.couleur li:nth-child(odd) {background-color: green}
-.couleur li:nth-child(even) {background-color: yellow}
+.couleur li:nth-child(odd) {background-color: #0000BB;}
+.couleur li:nth-child(even) {background-color: #0000BB;}
 
 
+.BlockImageQuestion {
+	position:relative;
+}
 
+.BlockTexteQuestion {
+	position:absolute;
+	top:0px;
+}
 
+.BlockTexteQuestion p {
+	color : gold;
+}
 
+#ArticleTextArea {
+	background-color: #0000BB;
+}
 
+h3 {
+	color : gold;
+}
 
-
-
-
-
-
+<<<<<<< HEAD
+details > p {
+	color : white;
+}
+=======
 <<<<<<< HEAD
  }
 >>>>>>> 29fa2c66bfb5589442ff5e56f9789e913432dee4
 =======
 >>>>>>> a09c3a49ad22f5165c06b636ab1dc5246c0c0dc4
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
