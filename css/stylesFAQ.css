@@ -3,10 +3,14 @@ nav
 {
 	display: flex;
 	flex-direction: row;
+<<<<<<< HEAD
 	width:1020px;
     margin : 10px auto;
     background-color:white;
     font-family: sans-serif;
+=======
+	background-color: black;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 nav > a
@@ -21,9 +25,15 @@ nav > div
 {
 	position: relative;
 	display: inline;
+<<<<<<< HEAD
 	background-color: #0000BB;
 	padding: 10px 0px;
 	border-left: 1px solid #000055;
+=======
+	background-color: black;
+	padding: 10px 0px;
+	border-left: 2px solid white;
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 	width: 100px;
 	text-align: center;
 }
@@ -62,10 +72,17 @@ a:link
 
 a:visited {color: gold;}
 
+<<<<<<< HEAD
 a:hover 
 {
 	color:gold;
 }
+=======
+<<<<<<< HEAD
+a:hover {color:white;}
+=======
+a:hover {color:#000000;}
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 
 
 
@@ -171,6 +188,14 @@ h3 {
 	color : gold;
 }
 
+<<<<<<< HEAD
 details > p {
 	color : white;
 }
+=======
+<<<<<<< HEAD
+ }
+>>>>>>> 29fa2c66bfb5589442ff5e56f9789e913432dee4
+=======
+>>>>>>> a09c3a49ad22f5165c06b636ab1dc5246c0c0dc4
+>>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
