@@ -39,6 +39,15 @@ h2
 p
 {
 	width: 95%;
+	text-indent:5px;
+	margin:30px 0px 30px 0px;
+	text-align: center;
+}
+
+main {
+	max-width: 1000px;
+	width: 80%;
+	margin: auto;
 }
 
 nav
@@ -93,47 +102,78 @@ a:hover {text-decoration: underline;}
 a:hover {color:#000000;}
 
 #Corentin {
-	width: 250px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #Jean {
-	width: 300;
+	width: 350;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #David {
-	width: 340px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #Andy {
-	width: 225px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #Chuck_Norris {
-	width: 225px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #RD1 {
-	width:340px;
+	width:275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #RD2 {
-	width: 325px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #Avocat {
-	width: 350px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #CyberSecurite {
-	width: 400px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 #Finances {
-	width: 400px;
+	width: 275px;
 	height:400px;
-}
-#Vladimir_Putin {
-	width: 395px;
-	height:400px;
+	display: flex;
+    margin: auto;
+    vertical-align: center;
 }
 
+.Section_article > article {
+	margin : 20px;
+}
