@@ -74,46 +74,56 @@ header {
 main {
     margin:auto;
     width:80%;
-    max-width:1000px;
+    max-width:1200px;
     background-color:green;
-    position:static;
+    display:flex;
+    flex-direction:row;
+}
+
+.section1 {
+	width:80%;
+	background-color: black;
+	display:flex;
+	flex-direction:column;
 }
 
 article {
     background-color:red;
 }
 
-aside {
+.section2 {
+	width:20%;
+	background-color: purple;
+}
 
-	width:300px;
+aside {
+	max-width:240px;
 	height:800px; 
 	background-color:red;
 	position:fixed;
-	top:100px;
-	right:10px;
+	top:200px;
 }
 
 aside li {
 	display:inline;
 }
 
-main > .GrilleQuestion {
+.GrilleQuestion {
 	display:flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-}
-
-footer {
-	background-color:red;
+	flex-flow;
 }
 
 .GrilleQuestion > article {
     margin:10px;
-    min-height: 300px;
-    min-width: 300px;
-    max-width: 300px;
-    max-height: 300px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
     text-align:center;
+}
+
+footer {
+	background-color:red;
 }
 
 #SizeImageInterrogationMarkFAQ {
