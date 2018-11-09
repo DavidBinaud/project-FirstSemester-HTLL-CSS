@@ -61,14 +61,30 @@ a:hover {color:#000000;}
 
 
 
-
+header {
+	background-color: yellow;
+}
 
 body {
 	background-color: blue;
+	display:flex;
+    flex-direction:column;
 }
 
-header {
-	background-color: yellow;
+.GrilleQuestion {
+	display:flex;
+	flex-wrap;
+	margin:auto;
+    background-color:orange;
+}
+
+.GrilleQuestion > article {
+    margin:10px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    text-align:center;
 }
 
 main {
@@ -101,26 +117,14 @@ aside {
 	height:800px; 
 	background-color:red;
 	position:fixed;
-	top:200px;
+;
 }
 
 aside li {
 	display:inline;
 }
 
-.GrilleQuestion {
-	display:flex;
-	flex-flow;
-}
 
-.GrilleQuestion > article {
-    margin:10px;
-    min-height: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 200px;
-    text-align:center;
-}
 
 footer {
 	background-color:red;
