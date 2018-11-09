@@ -1,0 +1,139 @@
+.dev
+{
+	width: 20%;
+	height: 30%;
+}
+
+.exref
+{
+	width: 20%;
+	height: 30%;
+}
+
+.tman
+{
+	width: 20%;
+	height: 30%;
+}
+
+h3
+{
+	background-color: #00DDFF;
+	color: #FFFFFF;
+	width: 30%;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+}
+
+h2
+{
+	background-color: #DD0000;
+	color: #FFFFFF;
+	width: 850px;
+}
+
+p
+{
+	width: 95%;
+}
+
+nav
+{
+	width: 100%;
+	margin: auto;
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+
+nav > a
+{
+	background-color: #c0d5c2;
+	padding: 10px;
+	border-left: 2px solid black;
+}
+
+nav > div
+{
+	position: relative;
+	display: inline;
+	background-color: white;
+	padding: 10px 0px;
+	border: 2px solid black;
+	width: 100px;
+	text-align: center;
+}
+
+.submenu
+{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	display:none;
+	background-color: #aca;
+}
+
+div:hover .submenu
+{
+	display:block;
+	background-color: white;
+}
+
+a:link {color: green;}
+
+a:visited {color: #00BB00;}
+
+a:hover {text-decoration: underline;} 
+
+a:hover {color:#000000;}
+
+#Corentin {
+	width: 250px;
+	height:400px;
+}
+#Jean {
+	width: 300;
+	height:400px;
+}
+#David {
+	width: 340px;
+	height:400px;
+}
+#Andy {
+	width: 225px;
+	height:400px;
+}
+#Chuck_Norris {
+	width: 225px;
+	height:400px;
+}
+#RD1 {
+	width:340px;
+	height:400px;
+}
+#RD2 {
+	width: 325px;
+	height:400px;
+}
+#Avocat {
+	width: 350px;
+	height:400px;
+}
+#CyberSecurite {
+	width: 400px;
+	height:400px;
+}
+#Finances {
+	width: 400px;
+	height:400px;
+}
+#Vladimir_Putin {
+	width: 395px;
+	height:400px;
+}
+
