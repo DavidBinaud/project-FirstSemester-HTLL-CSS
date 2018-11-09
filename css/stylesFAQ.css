@@ -6,7 +6,7 @@ nav
 	height: 75px;
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: black;
 }
 
 nav > a
@@ -21,9 +21,9 @@ nav > div
 {
 	position: relative;
 	display: inline;
-	background-color: white;
+	background-color: black;
 	padding: 10px 0px;
-	border: 2px solid black;
+	border-left: 2px solid white;
 	width: 100px;
 	text-align: center;
 	flex-grow: 1;
@@ -41,7 +41,7 @@ nav > div
 div:hover .submenu
 {
 	display:block;
-	background-color: white;
+	background-color: transparent;
 }
 
 a:link {color: green;}
@@ -50,6 +50,9 @@ a:visited {color: #00BB00;}
 
 a:hover {text-decoration: underline;} 
 
+<<<<<<< HEAD
+a:hover {color:white;}
+=======
 a:hover {color:#000000;}
 
 
@@ -152,3 +155,8 @@ footer {
 
 
 
+<<<<<<< HEAD
+ }
+>>>>>>> 29fa2c66bfb5589442ff5e56f9789e913432dee4
+=======
+>>>>>>> a09c3a49ad22f5165c06b636ab1dc5246c0c0dc4
