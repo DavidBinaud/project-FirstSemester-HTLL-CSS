@@ -255,3 +255,19 @@ img:last-of-type
 {
   background: #222;
 }
+
+#Facebook{
+transform: translateZ(.5px) scale(.6) translateX(-80%) translateY(60%) rotate(-10deg);
+height: 50px; width: 50px;
+}
+
+#Twitter{
+transform: translateZ(.5px) scale(.6) translateX(+60%) translateY(-40%) rotate(10deg);
+height: 50px; width: 50px;
+}
+
+#ANDY{
+transform: translateZ(.5px) scale(.6) translateX(+400%) translateY(-50%) rotate(20deg);
+height: 75px; width: 50px;
+background: red;
+}
