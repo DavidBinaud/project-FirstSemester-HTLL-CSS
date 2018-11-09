@@ -14,6 +14,7 @@ nav > a
 	background-color: #c0d5c2;
 	padding: 10px;
 	border-left: 2px solid black;
+
 }
 
 nav > div
@@ -25,6 +26,7 @@ nav > div
 	border-left: 2px solid white;
 	width: 100px;
 	text-align: center;
+	flex-grow: 1;
 }
 
 .submenu
@@ -60,51 +62,98 @@ a:hover {color:#000000;}
 
 
 
-#mainFAQ {
-	display:flex;
-	flex-direction:row;
-}
 
-#SizeImageInterrogationMarkFAQ {
-	width:100px;
-	height:100px;
-}
 
-.DivBody {
-	display:flex;
-	flex-direction:column;
-	flex-grow:1;
+header {
+	background-color: yellow;
 }
 
 body {
-	margin : auto;
-	width : 70%;
-	background-color : green;
-	display-flex;
+	background-color: blue;
+	display:flex;
+    flex-direction:column;
 }
 
-html {
-background-color : blue;
+.GrilleQuestion {
+	display:flex;
+	flex-wrap;
+	margin:auto;
+    background-color:orange;
+}
+
+.GrilleQuestion > article {
+    margin:10px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    text-align:center;
+}
+
+main {
+    margin:auto;
+    width:80%;
+    max-width:1200px;
+    background-color:green;
+    display:flex;
+    flex-direction:row;
+}
+
+.section1 {
+	width:80%;
+	background-color: black;
+	display:flex;
+	flex-direction:column;
 }
 
 article {
-
-background-color : red;
-	
+    background-color:red;
 }
 
-div .GrilleArticle {
-	display:flex;
-	flex-direction:row;
-	flex-grow:1;
+.section2 {
+	width:20%;
+	background-color: purple;
 }
 
- #BlockQuestion {
- 	display:inline-block;
- 	flex-grow:1;
-	padding:80px;
-	border:2px solid black;
-	margin:4px;
+aside {
+	max-width:240px;
+	height:800px; 
+	background-color:red;
+	position:fixed;
+;
+}
 
+aside li {
+	display:inline;
+}
+
+
+
+footer {
+	background-color:red;
+}
+
+#SizeImageInterrogationMarkFAQ {
+	width:200px;
+	height:200px;
+}
+
+.couleur li:nth-child(odd) {background-color: green}
+.couleur li:nth-child(even) {background-color: yellow}
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
  }
 >>>>>>> 29fa2c66bfb5589442ff5e56f9789e913432dee4
+=======
+>>>>>>> a09c3a49ad22f5165c06b636ab1dc5246c0c0dc4
