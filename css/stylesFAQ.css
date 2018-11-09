@@ -73,9 +73,10 @@ body {
 
 .GrilleQuestion {
 	display:flex;
-	flex-wrap;
-	margin:auto;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
     background-color:orange;
+    width:100%;
 }
 
 .GrilleQuestion > article {
@@ -124,7 +125,9 @@ aside li {
 	display:inline;
 }
 
+.textarea {
 
+}
 
 footer {
 	background-color:red;
