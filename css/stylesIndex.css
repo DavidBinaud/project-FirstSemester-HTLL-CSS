@@ -1,24 +1,11 @@
-<<<<<<< HEAD
-body
-{
-	width: 80%;
-	margin: 0;
-  padding: 0;
-}
-
-.gants
-{
-	width: 100px;
-	height: 100px;
-=======
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
 body 
 { 
   margin:0;
   padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -27,75 +14,52 @@ body
 
 header
 {
-	padding: 10px auto;
-	margin: 10px auto;
+  padding: 10px auto;
+  margin: 10px auto;
 
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 h1 
 {
-<<<<<<< HEAD
-	width: 100px;
-	height: 100px;
-=======
    font-size: 250%
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
 
 h2
 {
-	background-color: #0000BB;
-	color: gold;
-	border: 2px solid #CCCCCC;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
+  background-color: #0000BB;
+  color: gold;
+  border: 2px solid #CCCCCC;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 25%;
 }
 
 h3
 {
-	background-color: #0000BB;
-	color: gold;
-	border: 2px solid #CCCCCC;
-	padding: 5px;
-	margin: 50px;
-	text-align: center;
-	width: 20%;
+  background-color: #0000BB;
+  color: gold;
+  border: 2px solid #CCCCCC;
+  padding: 5px;
+  margin: 50px;
+  text-align: center;
+  width: 20%;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 nav
 {
-	display: flex;
-	flex-direction: row;
-<<<<<<< HEAD
-	width: 100%;
-    margin : -10px auto;
-    padding : auto;
-    background-color: #0000BB;
-=======
-<<<<<<< HEAD
-	width:1020px;
-    margin : 10px auto;
-    background-color:white;
-=======
-	width: 800px;
+  display: flex;
+  flex-direction: row;
+  width:1020px;
     margin : auto;
     padding : auto;
-    background-color: white;
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
->>>>>>> 07e5a3f9008b3ee757a615f303b44b7ce6ab478c
+    background-color:white;
     font-family: sans-serif;
 }
 
 nav > a
 {
-	font-size : 22px;
+  font-size : 22px;
     padding : 5px;
     text-decoration: none;
     color: #262d35;
@@ -103,86 +67,57 @@ nav > a
 
 nav > div
 {
-	position: relative;
-	display: inline;
-	background-color: #0000BB;
-	padding: 10px 0px;
-	border-left: 1px solid #000055;
-	width: 100px;
-	text-align: center;
+  position: relative;
+  display: inline;
+  background-color: #0000BB;
+  padding: 10px 0px;
+  border-left: 1px solid #000055;
+  width: 100px;
+  text-align: center;
 }
 
 
 nav div:first-child
 {
-<<<<<<< HEAD
-	border-radius: 10px 0px 0px 10px; 
-=======
-	border-radius: 10px 0px 0px 10px;
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
+  border-radius: 10px 0px 0px 10px; 
 }
 
 nav div:last-child
 {
-<<<<<<< HEAD
-	border-radius: 0px 10px 10px 0px; 
-=======
-	border-radius: 0px 10px 10px 0px;
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
+  border-radius: 0px 10px 10px 0px; 
 }
 
 .submenu
 {
-	position: absolute;
-	top: 50px;
-	left: 0px;
-	display:none;
-	background-color: #aca;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display:none;
+  background-color: #aca;
 }
 
 div:hover .submenu
 {
-	display:block;
-	background-color: transparent;
-<<<<<<< HEAD
+  display:block;
+  background-color: transparent;
 }
 
 a:link 
 {
-	color: gold;
-	text-decoration: none;
+  color: gold;
+  text-decoration: none;
 }
 
 a:visited {color: gold;}
 
 a:hover 
 {
-	color:gold;
+  color:gold;
 }
 
 #container
 {
   width: 100%;
-}
-
-section
-{
-  padding: 5% 15%;
-  margin: 0 auto;
-=======
-}
-
-a:link 
-{
-	color: gold;
-	text-decoration: none;
-}
-
-a:visited {color: gold;}
-
-a:hover 
-{
-	color:gold;
 }
 
 html 
@@ -206,7 +141,7 @@ p
   width: 100vw;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
+  transform-style: inherit;
 }
 
 img 
@@ -246,6 +181,7 @@ img:last-of-type
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  z-index: 3;
 }
 
 .slide:nth-child(2n) .title 
@@ -297,7 +233,7 @@ img:last-of-type
  transform-origin: 50% 100%;
 }
 
-#slide1
+#slide1 
 {
   background-image: url("./../images/1498-ubuntu-WallFizz.jpg");
   transform: translateZ(-1px) scale(2);
@@ -309,7 +245,7 @@ img:last-of-type
   z-index:2;
 }
 
-#slide3 
+#slide3
 {
   background-image: url("./../images/thumb-1920-403441.gif.png");
   transform: translateZ(-1px) scale(2);
@@ -332,5 +268,4 @@ img:last-of-type
   width: 50px;
   height: 50px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
->>>>>>> 263ca776476ccdb9c55b0ada13648721892b7de9
 }
