@@ -20,25 +20,43 @@ h3
 {
 	background-color: #00DDFF;
 	color: #FFFFFF;
-	width: 30%;
+	width: 100%;
+	text-align: center;
 }
 
 body
 {
 	width: 100%;
 	height: 100%;
+	color:black;
+	background-color:white;
+	background-image: url(../images/background-teamV3.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed; 
+	background-position:center center;
 }
 
 h2
 {
 	background-color: #DD0000;
 	color: #FFFFFF;
-	width: 850px;
+	width: 53%;
+	text-align: center;
 }
 
 p
 {
 	width: 95%;
+	text-indent:5px;
+	margin:30px 0px 30px 0px;
+	position: float;
+	color: #A0D000;
+}
+
+main {
+	max-width: 1000px;
+	width: 80%;
+	margin: auto;
 }
 
 nav
@@ -69,6 +87,12 @@ nav > div
 	text-align: center;
 }
 
+fieldset {
+	width: 75%;
+	text-align: center;
+	display: block;
+}
+
 .submenu
 {
 	position: absolute;
@@ -93,47 +117,76 @@ a:hover {text-decoration: underline;}
 a:hover {color:#000000;}
 
 #Corentin {
-	width: 250px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: right;
 }
 #Jean {
-	width: 300;
+	width: 350;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: left;
 }
 #David {
-	width: 340px;
+	width: 350px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: right;
 }
 #Andy {
 	width: 225px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: left;
 }
 #Chuck_Norris {
-	width: 225px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: right;
 }
 #RD1 {
-	width:340px;
+	width:275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: left;
 }
 #RD2 {
-	width: 325px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: right;
 }
 #Avocat {
-	width: 350px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: left;
 }
 #CyberSecurite {
-	width: 400px;
+	width: 275px;
 	height:400px;
+	display: flex;
+    margin: auto;
+    float: right;
 }
 #Finances {
 	width: 400px;
 	height:400px;
-}
-#Vladimir_Putin {
-	width: 395px;
-	height:400px;
+	display: flex;
+    margin: auto;
+    float: left;
 }
 
+.Section_article > article {
+	margin : 20px;
+}

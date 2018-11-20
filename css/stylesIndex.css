@@ -4,8 +4,8 @@ body
 { 
   margin:0;
   padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -14,8 +14,8 @@ body
 
 header
 {
-	padding: 10px auto;
-	margin: 10px auto;
+  padding: 10px auto;
+  margin: 10px auto;
 
 }
 
@@ -26,31 +26,31 @@ h1
 
 h2
 {
-	background-color: #0000BB;
-	color: gold;
-	border: 2px solid #CCCCCC;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
+  background-color: #0000BB;
+  color: gold;
+  border: 2px solid #CCCCCC;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 25%;
 }
 
 h3
 {
-	background-color: #0000BB;
-	color: gold;
-	border: 2px solid #CCCCCC;
-	padding: 5px;
-	margin: 50px;
-	text-align: center;
-	width: 20%;
+  background-color: #0000BB;
+  color: gold;
+  border: 2px solid #CCCCCC;
+  padding: 5px;
+  margin: 50px;
+  text-align: center;
+  width: 20%;
 }
 
 nav
 {
-	display: flex;
-	flex-direction: row;
-	width:1020px;
+  display: flex;
+  flex-direction: row;
+  width:1020px;
     margin : auto;
     padding : auto;
     background-color:white;
@@ -59,7 +59,7 @@ nav
 
 nav > a
 {
-	font-size : 22px;
+  font-size : 22px;
     padding : 5px;
     text-decoration: none;
     color: #262d35;
@@ -67,52 +67,52 @@ nav > a
 
 nav > div
 {
-	position: relative;
-	display: inline;
-	background-color: #0000BB;
-	padding: 10px 0px;
-	border-left: 1px solid #000055;
-	width: 100px;
-	text-align: center;
+  position: relative;
+  display: inline;
+  background-color: #0000BB;
+  padding: 10px 0px;
+  border-left: 1px solid #000055;
+  width: 100px;
+  text-align: center;
 }
 
 
 nav div:first-child
 {
-	border-radius: 10px 0px 0px 10px; 
+  border-radius: 10px 0px 0px 10px; 
 }
 
 nav div:last-child
 {
-	border-radius: 0px 10px 10px 0px; 
+  border-radius: 0px 10px 10px 0px; 
 }
 
 .submenu
 {
-	position: absolute;
-	top: 50px;
-	left: 0px;
-	display:none;
-	background-color: #aca;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display:none;
+  background-color: #aca;
 }
 
 div:hover .submenu
 {
-	display:block;
-	background-color: transparent;
+  display:block;
+  background-color: transparent;
 }
 
 a:link 
 {
-	color: gold;
-	text-decoration: none;
+  color: gold;
+  text-decoration: none;
 }
 
 a:visited {color: gold;}
 
 a:hover 
 {
-	color:gold;
+  color:gold;
 }
 
 #container
@@ -141,7 +141,7 @@ p
   width: 100vw;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
+  transform-style: inherit;
 }
 
 img 
@@ -186,14 +186,14 @@ img:last-of-type
 
 .slide:nth-child(2n) .title 
 {
-  margin-left: 0;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .slide:nth-child(2n+1) .title 
 {
-  margin-left: auto;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .slide, .slide:before 
@@ -256,6 +256,7 @@ img:last-of-type
   background: #222;
 }
 
+<<<<<<< HEAD
 #Facebook{
 transform: translateZ(.5px) scale(.6) translateX(-80%) translateY(60%) rotate(-10deg);
 height: 50px; width: 50px;
@@ -270,4 +271,18 @@ height: 50px; width: 50px;
 transform: translateZ(.5px) scale(.6) translateX(+400%) translateY(-50%) rotate(20deg);
 height: 75px; width: 50px;
 background: red;
+=======
+#Twitter
+{
+  width: 50px;
+  height: 50px;
+  transform: translateZ(.4px) scale(.6) translateX(40%) translateY(-40%) rotate(5deg);
+}
+
+#Facebook
+{
+  width: 50px;
+  height: 50px;
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+>>>>>>> e3ce5b6c1d025ec7ecb803588ee244766ae8c8bb
 }
