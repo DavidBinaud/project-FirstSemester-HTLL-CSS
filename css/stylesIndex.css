@@ -16,7 +16,6 @@ header
 {
   padding: 10px auto;
   margin: 10px auto;
-
 }
 
 h1 
@@ -108,7 +107,10 @@ a:link
   text-decoration: none;
 }
 
-a:visited {color: gold;}
+a:visited 
+{
+  color: gold;
+}
 
 a:hover 
 {
@@ -186,14 +188,14 @@ img:last-of-type
 
 .slide:nth-child(2n) .title 
 {
-  margin-left: auto;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .slide:nth-child(2n+1) .title 
 {
-  margin-left: 0;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .slide, .slide:before 
@@ -256,22 +258,6 @@ img:last-of-type
   background: #222;
 }
 
-<<<<<<< HEAD
-#Facebook{
-transform: translateZ(.5px) scale(.6) translateX(-80%) translateY(60%) rotate(-10deg);
-height: 50px; width: 50px;
-}
-
-#Twitter{
-transform: translateZ(.5px) scale(.6) translateX(+60%) translateY(-40%) rotate(10deg);
-height: 50px; width: 50px;
-}
-
-#ANDY{
-transform: translateZ(.5px) scale(.6) translateX(+400%) translateY(-50%) rotate(20deg);
-height: 75px; width: 50px;
-background: red;
-=======
 #Twitter
 {
   width: 50px;
@@ -284,5 +270,4 @@ background: red;
   width: 50px;
   height: 50px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
->>>>>>> e3ce5b6c1d025ec7ecb803588ee244766ae8c8bb
 }
