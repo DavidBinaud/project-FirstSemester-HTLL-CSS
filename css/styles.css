@@ -97,7 +97,6 @@ nav > div
 .navflag
 {
 	position: absolute;
-	display: inline-block;
 	right: 0;
 	display: block;
 	width: 60px;
@@ -135,7 +134,11 @@ div:hover .submenu, div:hover .submenuflag
 	background-color: #DDDDDD;
 }
 
-a:link {color: #00CCFF;}
+a:link 
+{
+	color: #00CCFF;
+	text-decoration: none;
+}
 
 a:visited 
 {
