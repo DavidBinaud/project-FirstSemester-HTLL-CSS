@@ -1,3 +1,14 @@
+html
+{
+	width: 100%;
+}
+
+header
+{
+	width: 100%;
+	border-bottom: 3px solid grey;
+}
+
 .dev
 {
 	width: 20%;
@@ -19,7 +30,7 @@
 h3
 {
 	background-color: white;
-	color: black;
+	color: green;
 	border: 2px solid black;
 	padding: 10px;
 	margin: 30px;
@@ -31,6 +42,8 @@ body
 {
 	width: 100%;
 	height: 100%;
+	text-align: auto;
+	margin : 0 auto;
 }
 
 h2
@@ -53,26 +66,27 @@ nav
 {
 	width: 100%;
 	margin: auto;
-	height: 75px;
+	height: 50%;
 	display: flex;
 	flex-direction: row;
-	background-color: black;
+	background-color: #DDDDDD;
 }
 
-nav > a
+nav a
 {
-	background-color: #c0d5c2;
+	background-color: none;
 	padding: 10px;
-	border-left: 2px solid black;
+	text-decoration:  none;
+	text-transform: uppercase;
 }
 
 nav > div
 {
 	position: relative;
 	display: inline;
-	background-color: black;
+	background-color: #DDDDDD;
 	padding: 10px 0px;
-	border-left: 2px solid white;
+	border-right: 2px solid grey;
 	width: 100px;
 	text-align: center;
 }
@@ -80,22 +94,23 @@ nav > div
 .submenu
 {
 	position: absolute;
-	top: 50px;
+	top: 107%;
 	left: 0px;
 	display:none;
-	background-color: #aca;
+	background-color: #DDDDDD;
+	z-index: 2;
 }
 
 div:hover .submenu
 {
 	display:block;
-	background-color: transparent;
+	background-color: #DDDDDD;
 }
 
-a:link {color: green;}
+a:link {color: #FFDDFF;}
 
-a:visited {color: #00BB00;}
+a:visited {color: #00CCFF;}
 
 a:hover {text-decoration: underline;} 
 
-a:hover {color:white;}
+a:hover {color: #000000;}
