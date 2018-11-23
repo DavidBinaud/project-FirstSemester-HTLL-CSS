@@ -80,9 +80,6 @@ nav a
 	text-decoration:  none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	display: block;
-	width: 100%;
-	height: 100%;
 }
 
 nav > div
@@ -100,10 +97,11 @@ nav > div
 .navflag
 {
 	position: absolute;
+	display: inline-block;
 	right: 0;
 	display: block;
 	width: 60px;
-	height: 1%;
+	height: 1.5%;
 	border-right: none;
 }
 
@@ -124,7 +122,6 @@ nav > div
 {
 	position: absolute;
 	top: 107%;
-	left: 0px;
 	display:none;
 	background-color: #DDDDDD;
 	z-index: 2;
