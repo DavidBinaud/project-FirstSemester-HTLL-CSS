@@ -48,7 +48,7 @@ p
 {
 	width: 95%;
 	text-indent:5px;
-	margin:175px 0px 30px 0px;
+	margin:75px 0px 30px 0px;
 	position: float;
 	color: #A0D000;
 }
@@ -187,10 +187,20 @@ a:hover {color:#000000;}
     float: left;
 }
 
-.Section_article > article {
+.Section_fieldset > article {
 	margin : 20px;
 }
 
 #Linkedin {
-	border : none;
+	width: 100px;
+	height:100px;
+	display: flex;
+    margin: auto;
+}
+
+#WikiLogo { 
+	width: 100px;
+	height:100px;
+	display: flex;
+    margin: auto;
 }

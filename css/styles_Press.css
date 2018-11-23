@@ -34,7 +34,7 @@ p
 	width: 225px;
 	height:400px;
 }
-<<<<<<< HEAD
+
 /*Partie de la barre de progression */
 .progress_launching {
     display: table;
@@ -54,7 +54,7 @@ label {
     text-align: right;
 }
 /* fin de barre de progression*/
-=======
+
 
 nav
 {
@@ -105,9 +105,30 @@ a:visited {color: #00BB00;}
 
 a:hover {text-decoration: underline;} 
 
-<<<<<<< HEAD
+
 a:hover {color:white;}
-=======
+
 a:hover {color:#000000;}
->>>>>>> fce3e950b389c0bcce7871b5e00aa8965bcca44e
->>>>>>> 4739232995a9e9b08f5aa850121da5c158f6d06d
+
+#GoogleMaps { 
+	width:600px;
+	height:450px;
+	frameborder:0px;
+	style:border:0px;
+	position: fixed ;
+	right:50px;
+}
+
+form { 
+	position: fixed ;
+	right:0px;
+	bottom: 0px;
+	} 
+
+.Section_Newsletter > aside {
+	display: flex;
+	position: fixed ;
+	right:0px;
+	bottom: 10px;
+}
+
