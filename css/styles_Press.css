@@ -179,6 +179,17 @@ aside {
 	
 }
 
+@media(max-width: 1220px){
+	#GoogleMaps {
+		display: none;
+	}
+}
+
+@media(max-width: 1220px){
+	.Section_Newsletter {
+		display: none;
+	}
+}
 
 #GoogleMaps { 
 	width:600px;
@@ -189,14 +200,23 @@ aside {
 }
 
 .Section_Newsletter {
-	max-width: 650px;
+	max-width: 400px;
 }
 
 
 #Andy {
 	width: 225px;
 	height:400px;
+	position: relative;
+	left: 10%;
 }
+
+.Section_Newsletter > h3 {
+	width: 50%;
+	height: 40%;
+}
+
+
 
 /*Partie de la barre de progression */
 .progress_launching {
