@@ -1,94 +1,168 @@
-h2
+html
 {
-	color: green;
-	border: 2px solid black;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 50%;
+	width: 100%;
+}
+
+header
+{
+	width: 100%;
+	height: 20%;
+	border-bottom: 3px solid grey;
+}
+
+.dev
+{
+	width: 20%;
+	height: 30%;
+}
+
+.exref
+{
+	width: 20%;
+	height: 30%;
+}
+
+.tman
+{
+	width: 20%;
+	height: 30%;
 }
 
 h3
 {
-	color: black;
-	border: 2px solid black;
-	padding: 5px;
-	margin: 50px;
+	background-color: #DDDDDD;
+	color: #00CCFF;
+	border: 2px solid grey;
+	padding: 10px;
+	margin: 30px;
 	text-align: center;
-	width: 35%;
+	width: 25%;
+}
+
+h2
+{
+	background-color: #DDDDDD;
+	color: #00CCFF;
+	border: 2px solid grey;
+	padding: 10px;
+	margin: 30px;
+	text-align: center;
+	width: 25%;
 }
 
 body
 {
 	width: 100%;
 	height: 100%;
-	background-color:#F4FEFE;
-}
-
-main {
-	display: flex;
-	flex-direction : row;
+	text-align: auto;
+	margin : 0 auto;
+	background-color: #F4FEFE;
 }
 
 p
 {
 	width: 95%;
-	text-align: center;
 }
 
 nav
 {
 	width: 100%;
 	margin: auto;
-	height: 75px;
+	height: 50%;
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: #DDDDDD;
 }
 
-nav > a
+nav a
 {
-	background-color: #c0d5c2;
-	padding: 10px;
-	border-left: 2px solid black;
+	background-color: none;
+	text-decoration:  none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 100%;
+	height: 100%;
 }
 
 nav > div
 {
 	position: relative;
 	display: inline;
-	background-color: black;
+	background-color: #DDDDDD;
 	padding: 10px 0px;
-	border-left: 2px solid white;
+	border-right: 2px solid grey;
 	width: 100px;
+	height: 100%;
 	text-align: center;
+}
+
+.navflag
+{
+	position: absolute;
+	right: 0;
+	display: block;
+	width: 60px;
+	height: 1.5%;
+	border-right: none;
 }
 
 .submenu
 {
 	position: absolute;
-	top: 50px;
+	top: 107%;
 	left: 0px;
 	display:none;
-	background-color: #aca;
+	background-color: #DDDDDD;
+	z-index: 2;
+	padding: 8px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+	border-radius: 0px 0px 5px 5px;
 }
 
-div:hover .submenu
+
+.submenuflag
+{
+	position: absolute;
+	top: 107%;
+	display:none;
+	background-color: #DDDDDD;
+	z-index: 2;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+	border-radius: 0px 0px 10px 10px;
+}
+
+div:hover .submenu, div:hover .submenuflag
 {
 	display:block;
-	background-color: transparent;
+	background-color: #DDDDDD;
 }
 
-a:link {color: green;}
+a:link 
+{
+	color: #00CCFF;
+	text-decoration: none;
+}
 
-a:visited {color: #00BB00;}
+a:visited 
+{
+	color: #00CCFF;
+}
 
-a:hover {text-decoration: underline;} 
+div:hover 
+{
+	background-color: #CCCCCC;
+}
 
+.flags
+{
+	width: 30px;
+	height: 20px;
+}
 
-a:hover {color:white;}
-
-a:hover {color:#000000;}
+main {
+	display: flex;
+	flex-direction : row;
+}
 
 article {
 	max-width : 900px;
@@ -105,6 +179,17 @@ aside {
 	
 }
 
+@media(max-width: 1220px){
+	#GoogleMaps {
+		display: none;
+	}
+}
+
+@media(max-width: 1220px){
+	.Section_Newsletter {
+		display: none;
+	}
+}
 
 #GoogleMaps { 
 	width:600px;
@@ -115,14 +200,23 @@ aside {
 }
 
 .Section_Newsletter {
-	max-width: 650px;
+	max-width: 400px;
 }
 
 
 #Andy {
 	width: 225px;
 	height:400px;
+	position: relative;
+	left: 10%;
 }
+
+.Section_Newsletter > h3 {
+	width: 50%;
+	height: 40%;
+}
+
+
 
 /*Partie de la barre de progression */
 .progress_launching {
