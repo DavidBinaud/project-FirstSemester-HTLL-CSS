@@ -1,4 +1,9 @@
+nav a:active {
+	text-decoration-color:red;
+}
 
+
+/*
 nav
 {
 	display: flex;
@@ -11,6 +16,10 @@ nav
 
 	background-color: black;
 
+}
+
+body{
+cursor:crosshair;
 }
 
 nav > a
@@ -84,7 +93,7 @@ a:hover {color:#000000;}
 
 
 
-
+*/
 
 
 

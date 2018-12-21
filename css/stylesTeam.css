@@ -1,3 +1,8 @@
+nav a:active {
+	color : red;
+}
+
+
 .dev
 {
 	width: 20%;
@@ -15,6 +20,7 @@
 	width: 20%;
 	height: 30%;
 }
+
 
 h3
 {
@@ -201,3 +207,5 @@ a:hover {color:#000000;}
 	display: flex;
     margin: auto;
 }
+
+
