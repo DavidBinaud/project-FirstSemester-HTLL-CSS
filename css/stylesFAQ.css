@@ -1,19 +1,12 @@
-header { /* propriété de header, container du nav */
+header {
 	width: 100%;
 	height: 20%;
 	border-bottom: 3px solid grey;
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  text-align: auto;
-  margin : 0 auto;
   background-color: #F4FEFE;
-  display:flex;
-  flex-direction:column;
   background-color:#F4FEFE;
-  /*cursor:crosshair; dans le cas ou je souhaite changer l'aspect du curseur */
 }
 
 main {
@@ -21,7 +14,15 @@ main {
     width:80%;
     max-width:1200px;
     display:flex;
-    flex-direction:row;
+    flex-direction:row;   /* dans main, il y a article et aside qui vont se positionner côte à côte */
+    position: relative;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  border-top: 3px solid grey;
+  background-color: #DDDDDD;
 }
 
 /* -------------------- tout ce qui concerne le nav----------------------- */
@@ -57,7 +58,7 @@ nav > div {
 
 #navflag {
   position: absolute;
-  right: 0;
+  right:0;
   display: block;
   width: 60px;
   height: 1.5%;
@@ -109,13 +110,13 @@ nav div:hover {
   height: 20px;
 }
 
-/* -----------------------Tout ce qui concerne l'entête------------------------ */
+/* -----------------------Tout ce qui concerne l'entête des------------------------ */
 
 #GrilleBulle {
 	display:flex; /* La propriété flex à tous les enfants de grilleBulle */
 	flex-wrap:wrap; /* les enfants reviennent à la ligne */
 	justify-content:space-evenly; /* les enfants prennent toute la largeur */
-   /* width:100%; */
+  /* width:100%; */
 }
 
 #GrilleBulle > div {
@@ -173,13 +174,15 @@ article { /* la section article formera la première colonne de main */
 /* ------------------------Concernant le aside-------------------------- */
 
 aside { /* la section aside formera la seconde colonne de main */
-  position:fixed;
-  right:100px;
+  position: absolute;
+  top:10px;
+  right:0px;
   width:20%;
-  top:430px;
+  height:100%;
 }
 
 aside a {
+  display:block;
   background-color: #DDDDDD;
   color: #00CCFF;
   border: 2px solid grey;
