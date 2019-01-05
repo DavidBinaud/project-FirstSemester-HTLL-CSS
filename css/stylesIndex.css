@@ -22,7 +22,7 @@ header
   border-bottom: 3px solid grey;
 }
 
-h1 
+h1
 {
    font-size: 250%
 }
@@ -132,7 +132,7 @@ a:visited
   color: #00CCFF;
 }
 
-div:hover 
+nav div:hover
 {
   background-color: #CCCCCC;
 }
@@ -248,7 +248,7 @@ p
   z-index:2;
 }
 
-#title h1 
+#title h1
 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
@@ -260,7 +260,7 @@ p
  transform-origin: 50% 100%;
 }
 
-#title h3 
+#title h3
 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
@@ -268,19 +268,19 @@ p
 
 #slide1 
 {
-  background-image: url("./../images/1498-ubuntu-WallFizz.jpg");
+  background-image: url("./../images/index/bulles.png");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 
 {
-  background-image: url("./../images/41967553-r%C3%A9sum%C3%A9-technologie-de-circuit-vecteur-de-fond-.jpg");
+  background-image: url("./../images/index/slide_3.jpg");
   z-index:2;
 }
 
 #slide3
 {
-  background-image: url("./../images/thumb-1920-403441.gif.png");
+  background-image: url("./../images/index/Teamdiscussion.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
