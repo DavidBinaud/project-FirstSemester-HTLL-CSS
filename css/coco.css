@@ -87,7 +87,7 @@ nav div:last-child
 	border-radius: 0px 10px 10px 0px; 
 }
 
-.submenu
+#submenu
 {
 	position: absolute;
 	top: 50px;
@@ -96,7 +96,7 @@ nav div:last-child
 	background-color: #aca;
 }
 
-div:hover .submenu
+div:hover #submenu
 {
 	display:block;
 	background-color: transparent;

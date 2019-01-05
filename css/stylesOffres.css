@@ -69,7 +69,7 @@ nav > div
 	text-align: center;
 }
 
-.submenu
+#submenu
 {
 	position: absolute;
 	top: 50px;
@@ -78,7 +78,7 @@ nav > div
 	background-color: #aca;
 }
 
-div:hover .submenu
+div:hover #submenu
 {
 	display:block;
 	background-color: transparent;

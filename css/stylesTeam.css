@@ -104,7 +104,7 @@ nav > div
 	text-align: center;
 }
 
-.navflag
+#navflag
 {
 	position: absolute;
 	right: 0;
@@ -114,7 +114,7 @@ nav > div
 	border-right: none;
 }
 
-.submenu
+#submenu
 {
 	position: absolute;
 	top: 107%;
@@ -127,8 +127,7 @@ nav > div
 	border-radius: 0px 0px 5px 5px;
 }
 
-
-.submenuflag
+#submenuflag
 {
 	position: absolute;
 	top: 107%;
@@ -139,7 +138,7 @@ nav > div
 	border-radius: 0px 0px 10px 10px;
 }
 
-div:hover .submenu, div:hover .submenuflag
+div:hover #submenu, div:hover #submenuflag
 {
 	display:block;
 	background-color: #DDDDDD;

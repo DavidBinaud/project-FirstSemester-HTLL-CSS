@@ -81,7 +81,7 @@ nav > div
   text-align: center;
 }
 
-.navflag
+#navflag
 {
   position: absolute;
   right: 0;
@@ -91,7 +91,7 @@ nav > div
   border-right: none;
 }
 
-.submenu
+#submenu
 {
   position: absolute;
   top: 72%;
@@ -104,8 +104,7 @@ nav > div
   border-radius: 0px 0px 5px 5px;
 }
 
-
-.submenuflag
+#submenuflag
 {
   position: absolute;
   top: 100%;
@@ -116,7 +115,7 @@ nav > div
   border-radius: 0px 0px 10px 10px;
 }
 
-div:hover .submenu, div:hover .submenuflag
+div:hover #submenu, div:hover #submenuflag
 {
   display:block;
   background-color: #DDDDDD;
@@ -245,7 +244,7 @@ p
 
 #title 
 {
-  background-image: url("./../images/Reparateur-Pc-Ordinateur-bordeaux-depannage-informatique-0629509347.jpg");
+  background-image: url("./../images/index/NuageDeBulle.jpg");
   z-index:2;
 }
 
