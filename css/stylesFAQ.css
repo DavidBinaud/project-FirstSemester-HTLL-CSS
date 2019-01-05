@@ -1,7 +1,3 @@
-html {
-	width: 100%;
-}
-
 header { /* propriété de header, container du nav */
 	width: 100%;
 	height: 20%;
@@ -15,9 +11,9 @@ body {
   margin : 0 auto;
   background-color: #F4FEFE;
   display:flex;
-    flex-direction:column;
-    background-color:#F4FEFE;
-  cursor:crosshair; /* dans le cas ou je souhaite changer l'aspect du curseur */
+  flex-direction:column;
+  background-color:#F4FEFE;
+  /*cursor:crosshair; dans le cas ou je souhaite changer l'aspect du curseur */
 }
 
 main {
@@ -113,38 +109,16 @@ nav div:hover {
   height: 20px;
 }
 
-/* ----------------------------------------------------------------------------- */
-
-h2 {
-  background-color: #DDDDDD;
-  color: #00CCFF;
-  border: 2px solid grey;
-  padding: 10px;
-  margin: 30px;
-  text-align: center;
-  width: 25%;
-}
-
-h3 {
-	background-color: #DDDDDD;
-	color: #00CCFF;
-	border: 2px solid grey;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
-}
-
 /* -----------------------Tout ce qui concerne l'entête------------------------ */
 
 #GrilleBulle {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
-    width:100%;
+	display:flex; /* La propriété flex à tous les enfants de grilleBulle */
+	flex-wrap:wrap; /* les enfants reviennent à la ligne */
+	justify-content:space-evenly; /* les enfants prennent toute la largeur */
+   /* width:100%; */
 }
 
-#GrilleBulle > article {
+#GrilleBulle > div {
     margin:10px;
     min-height: 200px;
     min-width: 200px;
@@ -153,72 +127,72 @@ h3 {
     text-align:center;
 }
 
-.BlockImageQuestion {
-  position:relative;
-}
-
-.BlockTexteQuestion {
-  position:absolute;
-  top:0px;
-}
-
-.BlockTexteQuestion p {
-  color : gold;
-}
-
-#GrilleBulle img {
-    filter: brightness(100%);
-    transition : transform .5s;
-
-}
-
-#GrilleBulle img:hover{
+#GrilleBulle img:hover{  /* on applique un effet de transitions aux bulles quand on passe le curseur dessus, elles s'agrandissent et s'assombrisse */
         filter: brightness(50%);
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
         transform: scale(1.1);
+        transition : transform .5s;
+}
+
+.ImageBandeau {
+  width:200px;
+  height:200px;
 }
 
 /* ----------------------------------------------------------------------------- */
 
-.sectionArticle {
-	width:80%;
-	display:flex;
-	flex-direction:column;
+h1, h2, h3{
+  background-color: #DDDDDD;
+  color: #00CCFF;
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 50%;
 }
 
-.sectionAside {
-	width:20%;
+h1 {
+  margin:auto;
+  margin-top: 25px;
+  margin-bottom : 25px;
 }
 
-aside {
-	max-width:240px;
-	height:800px; 
-	position:fixed;
+details {
+  background-color: #DDDDDD;
+  color: #00CCFF;
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 80%;
 }
 
-aside li {
-	display:inline;
+article { /* la section article formera la première colonne de main */
+  width:80%;
 }
 
-.textarea {
-	background-color: #0000BB;
+/* ------------------------Concernant le aside-------------------------- */
+
+aside { /* la section aside formera la seconde colonne de main */
+  position:fixed;
+  right:100px;
+  width:20%;
+  top:430px;
 }
 
-.ImageBandeau {
-	width:200px;
-	height:200px;
+aside a {
+  background-color: #DDDDDD;
+  color: #00CCFF;
+  border: 2px solid grey;
+  padding: 5px;
+  margin:auto;
 }
 
-/*.couleur li:nth-child(odd) {background-color: #0000BB;}
-.couleur li:nth-child(even) {background-color: #0000BB;}*/
+/* ------------------------------------------------------------------ */
 
-#ArticleTextArea {
-	background-color: #0000BB;
+#IconeOnRemonte {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:80px;
+  height:80px;
 }
-
-/*.arrow arrow:hover {
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}*/
