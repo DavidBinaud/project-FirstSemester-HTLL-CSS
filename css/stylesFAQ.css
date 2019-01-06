@@ -37,7 +37,6 @@ nav {
 }
 
 nav a {
-  background-color: none;
   text-decoration:  none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -163,7 +162,7 @@ details {
   border: 2px solid grey;
   padding: 10px;
   margin: 30px;
-  text-align: center;
+  text-align:center;
   width: 80%;
 }
 
@@ -174,20 +173,12 @@ article { /* la section article formera la première colonne de main */
 /* ------------------------Concernant le aside-------------------------- */
 
 aside { /* la section aside formera la seconde colonne de main */
-  position: absolute;
-  top:10px;
-  right:0px;
   width:20%;
-  height:100%;
 }
 
-aside a {
-  display:block;
+aside > a {
+  display:inline;
   background-color: #DDDDDD;
-  color: #00CCFF;
-  border: 2px solid grey;
-  padding: 5px;
-  margin:auto;
 }
 
 /* ------------------------------------------------------------------ */
