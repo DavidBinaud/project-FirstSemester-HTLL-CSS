@@ -8,13 +8,25 @@
 			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
 			<meta name="viewport" content="width=device-width, initial-scale=1">  <!-- base responsive taille écran -->
 			<link rel="stylesheet" type="text/css" href="./css/stylesContact.css">
-			<title>Nous Contacter</title>    <!-- TITRE A RAJOUTER-->
+			<title>Nous Contacter</title>    <!-- TITRE -->
 
 		</head>
 
 		<body>
 			<header>
+		<div id="burger">  <img src="images/burger.png" alt="burger" width="50px">
 			
+			<div id="menu2">
+			<div><a href="./index.html">Accueil</a></div>
+			<div><a href="./contact.html">Contact</a></div>
+			<div><a href="./team.html">Team</a></div>
+			<div><a href="./press.html">Press</a></div>
+
+
+
+			</div>
+		</div>
+
 		<nav>
 
 			<div>
@@ -34,7 +46,9 @@
 			</div>
 
 			<div>
+				<!-- div --> 
 				<a href="./joinus.html">Join Us</a>
+				<!-- /div -->
 				<div id="submenu">
 					<a href="./Dev.html">Développeur</a>
 					<a href="./TrafficManager.html">Traffic Manager</a>
@@ -56,12 +70,7 @@
 			</div>
 
 		</nav>
-
-			<!-- <nav> </nav>  COMMUN AUX PAGES // 1 personne s'occupe du nav  
-			Mettre en place des pages en fr et en anglais avec choix depuis le nav?
-			-->
-			
-			</header>
+	</header>
 		
 
 
@@ -129,7 +138,7 @@
 
 	<!--iii-->				<fieldset>
 								<legend>Date à laquelle vous souhaitez être recontacté<span class="required">*</span></legend>
-								<input name="date" type="date" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné // need js-->
+								<input name="date" type="date" min="2019-01-01" max="2025-01-01" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné // need js-->
 
 							</fieldset>	
 
