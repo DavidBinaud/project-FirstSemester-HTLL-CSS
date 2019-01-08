@@ -175,7 +175,8 @@ p
   transform-style: inherit;
 }
 
-.gants,.lunettes
+
+#gants,#lunettes
 {
   position: absolute;
   top: 50%;
@@ -188,12 +189,12 @@ p
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-.gants
+#gants
 {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 
-.lunettes
+#lunettes
 {
    transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
 }
