@@ -1,4 +1,4 @@
-h3
+h3, h2
 {
 	background-color: #DDDDDD;
 	color: #00CCFF;
@@ -9,25 +9,7 @@ h3
 	width: 25%;
 }
 
-h2
-{
-	background-color: #DDDDDD;
-	color: #00CCFF;
-	border: 2px solid grey;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
-}
 
-body
-{
-	width: 100%;
-	height: 100%;
-	text-align: auto;
-	margin : 0 auto;
-	background-color: #F4FEFE;
-}
 
 p
 {
@@ -72,54 +54,6 @@ main {
     float: left;
 }
 
-#Chuck_Norris {
-	width: 275px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: right;
-}
-
-#RD1 {
-	width:275px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: left;
-}
-
-#RD2 {
-	width: 275px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: right;
-}
-
-#Avocat {
-	width: 275px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: left;
-}
-
-#CyberSecurite {
-	width: 275px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: right;
-}
-
-#Finances {
-	width: 400px;
-	height:400px;
-	display: flex;
-    margin: auto;
-    float: left;
-}
-
 .Section_fieldset > article {
 	margin : 20px;
 }
@@ -136,29 +70,4 @@ main {
 	height:100px;
 	display: flex;
     margin: auto;
-}
-
-
-#logo {
-  width:120px;
-  height:80px;
-}
-
-#IconeOnRemonte {
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  width:80px;
-  height:80px;
-}
-
-
-footer {
-  width: 100%;
-  border-top: 3px solid grey;
-  background-color: #DDDDDD;
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: flex-start;
 }

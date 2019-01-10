@@ -5,7 +5,6 @@
   src: url(./fonts/RattyTatty.ttf);
 }
 
-
 .Site {
   display: flex;
   min-height: 100vh;
@@ -15,8 +14,6 @@
 .Site-content {
   flex: 1;
 }
-
-
 
 html
 {
@@ -30,10 +27,7 @@ body {
   margin:auto;
 }
 
-
-
 /*------------------------------------------------------------- NAV-------------------------------------------------------------------- */
-
 
 #menuburger
 {
@@ -142,37 +136,33 @@ nav div:hover
   height: 20px;
 }
 
-
-
 @media(max-width: 480px) {
 
-   body {
-       overflow-x: hidden;
-    }
+body {
+   overflow-x: hidden;
+}
 
 
-  #menuburger{
-    display:initial;
-  }
+#menuburger{
+  display:initial;
+}
 
   #menu2{
     position:relative;
     left:-100%;
   }
 
-  nav{display: none;}
+nav{display: none;}
 
-  div:hover #menu2 {
-    position: initial;
-  }
+div:hover #menu2 {
+  position: initial;
+}
   
 }
-
 
 @media(max-width: 768px) {
   div {background-color:white;}
 }
-
 
 @media(max-width: 992px) {
   div {background-color:white;}
@@ -183,11 +173,7 @@ nav div:hover
 }
 /*-------------------------------------------------------------------------- END NAV----------------------------------------------------------- */
 
-
-
 /* FOOTER */ 
-
-
 
 #logo {
   width:120px;
@@ -204,7 +190,6 @@ nav div:hover
   height:80px;
 }
 
-
 footer div {
   margin: 20px 20px;
 }
@@ -219,7 +204,6 @@ footer {
   justify-content: flex-start;
   z-index: 15;
 }
-
 
 #logo {
   width:120px;
