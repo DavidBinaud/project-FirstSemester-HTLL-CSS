@@ -156,24 +156,24 @@ main {
 }
 
 #Corentin {
-	width: 275px;
-	height:400px;
+	width: 200px;
+	height:200px;
 	display: flex;
     margin: auto;
     float: right;
 }
 
 #Jean {
-	width: 350;
-	height:400px;
+	width: 150px;
+	height:210px;
 	display: flex;
     margin: auto;
     float: left;
 }
 
 #David {
-	width: 350px;
-	height:400px;
+	width: 250px;
+	height:250px;
 	display: flex;
     margin: auto;
     float: right;
