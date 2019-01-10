@@ -174,3 +174,27 @@ table {
 	border: 5px;
 	border-color: black;
 }
+
+footer {
+  width: 100%;
+  border-top: 3px solid grey;
+  background-color: #DDDDDD;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+
+#logo {
+  width:120px;
+  height:80px;
+}
+
+#IconeOnRemonte {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:80px;
+  height:80px;
+}
