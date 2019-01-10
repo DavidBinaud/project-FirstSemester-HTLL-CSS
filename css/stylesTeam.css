@@ -1,4 +1,3 @@
-
 h3
 {
 	background-color: #DDDDDD;
@@ -58,16 +57,16 @@ main {
 }
 
 #David {
-	width: 250px;
-	height:250px;
+	width: 300px;
+	height:400px;
 	display: flex;
     margin: auto;
     float: right;
 }
 
 #Andy {
-	width: 250px;
-	height:230px;
+	width: 300px;
+	height:400px;
 	display: flex;
     margin: auto;
     float: left;
@@ -125,14 +124,14 @@ main {
 	margin : 20px;
 }
 
-#Linkedin {
+.Linkedin {
 	width: 100px;
 	height:100px;
 	display: flex;
     margin: auto;
 }
 
-#WikiLogo { 
+.WikiLogo { 
 	width: 100px;
 	height:100px;
 	display: flex;
