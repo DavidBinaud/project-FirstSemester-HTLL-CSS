@@ -5,6 +5,19 @@
   src: url(./fonts/RattyTatty.ttf);
 }
 
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+
+
 html
 {
   width: 100%;
