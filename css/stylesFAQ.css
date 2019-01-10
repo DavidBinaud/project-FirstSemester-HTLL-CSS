@@ -34,6 +34,8 @@ footer {
   background-color: #DDDDDD;
   display:flex;
   flex-direction:row;
+  align-items:center;
+  justify-content: flex-start;
 }
 
 footer div {
@@ -201,7 +203,7 @@ aside > a {
   background-color: #DDDDDD;
 }
 
-/* ------------------------------------------------------------------ */
+/* ---------------------Propre à l'image pour remonter en haut de page grace à lien interne et ancre--------------------------- */
 
 #IconeOnRemonte {
   position:fixed;
@@ -217,4 +219,14 @@ aside > a {
   color:red;
 }
 
+/* -------------------- Propre à la page conf.html ------------------------ */
 
+#article1 {
+  max-width:1000px;
+  margin:auto;
+}
+
+#logo {
+  width:120px;
+  height:80px;
+}
