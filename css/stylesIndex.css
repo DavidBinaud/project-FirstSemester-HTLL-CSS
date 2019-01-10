@@ -205,3 +205,12 @@ p
   height: 50px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
+
+
+
+
+@media only screen and (max-device-width: 768px) {
+  .slide {
+   display:none;
+  }
+}
