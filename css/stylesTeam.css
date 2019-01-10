@@ -14,24 +14,6 @@ header
 	border-bottom: 3px solid grey;
 }
 
-.dev
-{
-	width: 20%;
-	height: 30%;
-}
-
-.exref
-{
-	width: 20%;
-	height: 30%;
-}
-
-.tman
-{
-	width: 20%;
-	height: 30%;
-}
-
 h3
 {
 	background-color: #DDDDDD;
@@ -198,8 +180,8 @@ main {
 }
 
 #Andy {
-	width: 225px;
-	height:400px;
+	width: 250px;
+	height:230px;
 	display: flex;
     margin: auto;
     float: left;
