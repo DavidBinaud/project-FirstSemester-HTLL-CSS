@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 nav a:active {
 	color : red;
 }
 
-=======
 html
 {
 	width: 100%;
@@ -15,7 +13,6 @@ header
 	height: 20%;
 	border-bottom: 3px solid grey;
 }
->>>>>>> 33e94e0a84099de8e7647e5b6b220b872fdbf201
 
 .dev
 {
@@ -34,7 +31,6 @@ header
 	width: 20%;
 	height: 30%;
 }
-
 
 h3
 {
@@ -125,6 +121,11 @@ nav > div
 	padding: 8px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
 	border-radius: 0px 0px 5px 5px;
+}
+
+#submenu > a:hover
+{
+  color: #565E75;
 }
 
 #submenuflag
