@@ -63,7 +63,7 @@ h1, h2, h3{
   width: 50%;
 }
 
-h1 {
+.h1FAQ {
   margin:auto;
   margin-top: 25px;
   margin-bottom : 25px;
@@ -93,8 +93,6 @@ aside > a {
   display:inline;
   background-color: #DDDDDD;
 }
-
-
 
 /* --------------------Semantique dans le texte ------------------------ */
 
