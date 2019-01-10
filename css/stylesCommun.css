@@ -26,6 +26,8 @@ html
 
 body {
   background-color: #F4FEFE;
+  width: 100%;
+  margin:auto;
 }
 
 
@@ -154,14 +156,14 @@ nav div:hover
   }
 
   #menu2{
-    positon:relative;
+    position:relative;
     left:-100%;
   }
 
   nav{display: none;}
 
   div:hover #menu2 {
-    position: inital;
+    position: initial;
   }
   
 }
