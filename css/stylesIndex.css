@@ -206,31 +206,3 @@ p
   height: 50px;
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
-
-
-
-
-
-
-#logo {
-  width:120px;
-  height:80px;
-}
-
-#IconeOnRemonte {
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  width:80px;
-  height:80px;
-}
-
-footer {
-  width: 100%;
-  border-top: 3px solid grey;
-  background-color: #DDDDDD;
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: flex-start;
-}
