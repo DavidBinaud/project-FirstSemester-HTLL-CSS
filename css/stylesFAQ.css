@@ -12,22 +12,23 @@ main {
 	display:flex; /* La propriété flex à tous les enfants de grilleBulle */
 	flex-wrap:wrap; /* les enfants reviennent à la ligne */
 	justify-content:space-evenly; /* les enfants prennent toute la largeur */
-  /* width:100%; */
+  background-color: #F4FEFE;
 }
 
 #GrilleBulle > div {
-    margin:10px;
-    min-height: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 200px;
-    text-align:center;
+  margin:10px;
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  text-align:center;
+  background-color: #F4FEFE;
 }
 
 .ImageBandeau:hover{  /* on applique un effet de transitions aux bulles quand on passe le curseur dessus, elles s'agrandissent et s'assombrisse */
-        filter: brightness(50%);
-        transform: scale(1.1);
-        transition : transform 0.5s;
+  filter: brightness(50%);
+  transform: scale(1.1);
+  transition : transform 0.5s;
 }
 
 .ImageBandeau {
