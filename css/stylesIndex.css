@@ -96,7 +96,7 @@ nav > div
 #submenu
 {
   position: absolute;
-  top: 72%;
+  top: 100%;
   left: 0px;
   display:none;
   background-color: #DDDDDD;
@@ -116,6 +116,7 @@ nav > div
   position: absolute;
   top: 100%;
   display:none;
+  padding-top: 5px;
   background-color: #DDDDDD;
   z-index: 3;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
