@@ -13,7 +13,6 @@ html
 header {
 	width: 100%;
 	height: 20%;
-	border-bottom: 3px solid grey;
 }
 
 body {
@@ -31,9 +30,14 @@ main {
 
 footer {
   width: 100%;
-  height: 120px;
   border-top: 3px solid grey;
   background-color: #DDDDDD;
+  display:flex;
+  flex-direction:row;
+}
+
+footer div {
+  margin: 20px 20px;
 }
 
 /* -------------------- tout ce qui concerne le nav----------------------- */
@@ -143,10 +147,10 @@ nav div:hover {
     text-align:center;
 }
 
-#GrilleBulle img:hover{  /* on applique un effet de transitions aux bulles quand on passe le curseur dessus, elles s'agrandissent et s'assombrisse */
+.ImageBandeau:hover{  /* on applique un effet de transitions aux bulles quand on passe le curseur dessus, elles s'agrandissent et s'assombrisse */
         filter: brightness(50%);
         transform: scale(1.1);
-        transition : transform .5s;
+        transition : transform 0.5s;
 }
 
 .ImageBandeau {
@@ -179,7 +183,7 @@ details {
   padding: 10px;
   margin: 30px;
   text-align:center;
-  width: 80%;
+  max-width: 80%;
 }
 
 article { /* la section article formera la première colonne de main */
@@ -206,3 +210,11 @@ aside > a {
   width:80px;
   height:80px;
 }
+
+/* --------------------Semantique dans le texte ------------------------ */
+
+#spanTexte1 {
+  color:red;
+}
+
+
