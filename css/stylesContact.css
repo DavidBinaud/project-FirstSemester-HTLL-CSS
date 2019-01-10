@@ -7,10 +7,6 @@
   src: url(./fonts/RattyTatty.ttf);
 }
 
-
-
-
-
 html
 {
 	width: 100%;
@@ -106,6 +102,11 @@ nav > div
   padding: 8px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
   border-radius: 0px 0px 5px 5px;
+}
+
+#submenu > a:hover
+{
+  color: #565E75;
 }
 
 #submenuflag

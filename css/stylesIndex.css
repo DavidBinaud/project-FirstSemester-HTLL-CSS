@@ -106,6 +106,11 @@ nav > div
   border-radius: 0px 0px 5px 5px;
 }
 
+#submenu > a:hover
+{
+  color: #565E75;
+}
+
 #submenuflag
 {
   position: absolute;
