@@ -41,8 +41,6 @@ main {
 
 /* ----------------------------------------------------------------------------- */
 
-
-
 h1, h2, h3{
   background-color: #DDDDDD;
   color: #00CCFF;
@@ -53,12 +51,7 @@ h1, h2, h3{
   width: 50%;
 }
 
-<<<<<<< HEAD
 .h1FAQ {
-=======
-
-h1 {
->>>>>>> 16d2de53e93c118c4bc64ed7af6acd37ee68e2fc
   margin:auto;
   margin-top: 25px;
   margin-bottom : 25px;
