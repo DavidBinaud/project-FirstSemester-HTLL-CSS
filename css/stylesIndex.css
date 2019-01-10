@@ -11,7 +11,7 @@ body
   font-family: Nunito;
   width: 100%;
   height: 100%;
-  text-align: auto;
+  text-align: justify;
   background-color: #F4FEFE;
 }
 
@@ -63,7 +63,7 @@ nav
 
 nav a
 {
-  background-color: none;
+  background-color: transparent;
   text-decoration:  none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -327,16 +327,13 @@ p
 
 @media(max-width: 768px) {
   div {background-color:white;}
-   ...
 }
 
 
 @media(max-width: 992px) {
   div {background-color:white;}
-   ...
 }
 
 @media(max-width: 1200px) {
   div {background-color:white;}
-   ...
 }
