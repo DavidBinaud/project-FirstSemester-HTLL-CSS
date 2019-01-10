@@ -46,7 +46,8 @@ h2
 
 
 
-.burger{
+#menuburger
+{
   display: none;
 }
 
@@ -316,16 +317,24 @@ p
 
 @media(max-width: 480px) {
 
-  .burger{
+   body {
+       overflow-x: hidden;
+    }
+
+
+  #menuburger{
     display:initial;
   }
 
-  #menu2{display: none;}
+  #menu2{
+    positon:relative;
+    left:-100%;
+  }
 
   nav{display: none;}
 
-  div .burger:hover {
-    display: block;
+  div:hover #menu2 {
+    position: inital;
   }
   
 }
