@@ -60,6 +60,11 @@ nav > div
 	background-color: #aca;
 }
 
+#submenu > a:hover
+{
+  color: #565E75;
+}
+
 div:hover #submenu
 {
 	display:block;
