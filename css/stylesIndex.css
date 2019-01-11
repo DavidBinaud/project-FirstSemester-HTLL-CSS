@@ -70,12 +70,7 @@ p
    transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
 }
 
-.header {
-  text-align: center;
-  font-size: 175%;
-  color: #fff;
-  text-shadow: 0 2px 2px #000;
-}
+
 
 .slide:before 
 {
@@ -201,6 +196,8 @@ blockquote p{color:white;}
 }
 }
 
+
+footer{z-index: 100}
 /*
 @media(max-width: 768){
   #phone,#phone *{display: block}
