@@ -103,18 +103,18 @@
 				
 				<!-- Page du Formulaire // demander au prof si formulaire en mode get ou post-->
 				<article>
-					<h1>Contact Us </h1>
+					<h1>Nous contacter </h1>
 					<form action="sendToContactForm.php" method="get">
 	  						
-	<!--i-->  			<fieldset ><legend>Personnal informations</legend>
+	<!--i-->  			<fieldset ><legend>Informations Personnelles</legend>
 							<p>
-	  							<label for="lastname" >Lastname<span class="required" >*</span></label>
+	  							<label for="lastname" >Nom<span class="required" >*</span></label>
 								<input id="lastname" name="lastname" type="text" placeholder="Entrez votre nom ici"  pattern="^[a-zA-Z]*$" autofocus required>
 							</p>
 
 
 							<p>
-								<label for="firstname">Surname<span class="required">*</span></label>
+								<label for="firstname">Prénom<span class="required">*</span></label>
 								<input id="firstname" name="firstname" type="text" placeholder="Entrez votre prénom ici" pattern="^[a-zA-Z]*$" required>
 							</p>
 
@@ -126,7 +126,7 @@
 
 
 							<p>
-								<label for="postcode">Postal Code</label>
+								<label for="postcode">Code Postal</label>
 								<input id="postcode" name="postcode" type="text" placeholder="" pattern="^[0-9]{5}$" ><!--Mettre un pattern sur post code Fait mais a du mettre en mode text au lieu de number// trouver comment patern un number pattern="^[0-9]{5}$"-->
 
 								<!-- TEST avec type number
@@ -137,7 +137,7 @@
 
 
 							<p>
-								<label for="CountryOrigin">Country<span class="required">*</span></label>
+								<label for="CountryOrigin">Pays d'origine<span class="required">*</span></label>
 								<select id="CountryOrigin" name="PaysOrigine">
 									<option value="fr" selected>France</option>
 									<option value="bel">Belgique</option>
@@ -150,7 +150,7 @@
 
 						</fieldset>
 
-	<!--ii-->			<fieldset><legend>You heard from us by<span class="required">*</span>?</legend>
+	<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via<span class="required">*</span>?</legend>
 							 <!-- Trouver comment le required// Fait avec checked-->
 							<input id="howfac" name="how" type="radio" value="fac">Facebook
 							<input id="howtwi" name="how" type="radio" value="twi">Twitter
@@ -162,7 +162,7 @@
 
 
 	<!--iii-->				<fieldset>
-								<legend>When do you want to be contacted<span class="required">*</span></legend>
+								<legend>Date à laquelle vous souhaitez être recontacté<span class="required">*</span></legend>
 								<input name="date" type="date" min="2019-01-01" max="2025-01-01" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné // need js-->
 
 							</fieldset>	
@@ -170,7 +170,7 @@
 
 
 	<!--iv-->				<fieldset>
-								<legend>Any remarks?</legend>
+								<legend>Avez-vous une remarque?</legend>
 								<label for="Msg"></label>
 								<textarea id="Msg" name="Msg" rows="5" ></textarea>
 							</fieldset>
