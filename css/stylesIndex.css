@@ -165,7 +165,7 @@ p
   display: flex;
 flex-direction:row;
 justify-content:center;
-alig-items:center;
+align-items:center;
 color:white;}
 
 blockquote p{color:white;}
