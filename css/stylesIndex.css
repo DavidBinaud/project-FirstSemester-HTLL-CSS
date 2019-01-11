@@ -199,7 +199,7 @@ blockquote p{color:white;}
 }
 
 
-footer{z-index: 100}
+footer{z-index: 100;}
 /*
 @media(max-width: 768){
   #phone,#phone *{display: block}
