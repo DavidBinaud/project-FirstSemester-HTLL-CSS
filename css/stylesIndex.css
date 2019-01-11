@@ -70,6 +70,13 @@ p
    transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
 }
 
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
 .slide:before 
 {
   content: "";
@@ -88,7 +95,8 @@ p
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  z-index: 3;
+  z-index: 2;
+  
 }
 
 .slide:nth-child(2n) .title 
