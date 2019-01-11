@@ -57,8 +57,7 @@ main {
 
 fieldset {
 	margin :10px;
-	width:400px;
-	height:100%;
+	max-width:400px;
 }
 
 main img {
@@ -75,7 +74,8 @@ main img {
 
 .Grid-cell {
 	flex: 1/2;
-		margin:20px;
+	margin:20px;
+	margin:auto;
 }
 
 .Grid--center {
