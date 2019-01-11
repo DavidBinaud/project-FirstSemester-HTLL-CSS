@@ -1,66 +1,101 @@
 <!DOCTYPE html>
 
 	<html lang=fr>
-
+	
 		<head>
 
-			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="author" content="Andy Houillon">
 			<link rel="stylesheet" type="text/css" href="./css/stylesCommun.css">
 			<link rel="stylesheet" type="text/css" href="./css/styles_Press.css">
+			<title>Bubble Point -- Lancement en magasin</title>
 			<link rel="icon" type="image/png" href="./images/icons/favicon.ico">
-			<title>Lancement du produit en magasins!</title>    <!-- TITRE A RAJOUTER-->
-
 		</head>
 
-		<body class="Site">
-			<header>
+	<body class="Site">
+
+		<header>
 			
-		<nav>
+			<!-- MENU BURGER GRACE A LA CHECKBOX -->
+			<div id="menuburger">
+    
 
-			<div>
-				<a href="./index.html">Accueil</a>
+			    <!-- cheat pour utiliser check afin dafficher -->
+			    <input type="checkbox" />
+			    
+			  	<!-- dessin du hamburger -->
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    
+			    
+			    <ul id="menu">
+			    	<li>
+			    		<img src="./lang/FR.png" alt="Français" class="flags" id="selectedflag">
+			    		<a href="./lang/Eng/press.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
+						<a href="./lang/Esp/press.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/press.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+					</li>
+			      	<li><a href="./index.html">Accueil</a></li>
+			      	<li><a href="./contact.html">Contact</a></li>
+			     	<li><a href="./team.html">Team</a></li>
+			     	<li><a href="./press.html">Press</a></li>
+			     	<li><a href="./joinus.html">Join Us</a>
+			     		<ul>
+			     			<li><a href="./Dev.html">Développeur</a></li>
+							<li><a href="./TrafficManager.html">Traffic Manager</a></li>
+							<li><a href="./RefExpert.html">Expert en référencement</a></li>
+						</ul></li>
+			     	<li><a href="./faq.html">FAQ</a></li>
+
+			    </ul>
 			</div>
 
-			<div>
-				<a href="./contact.html">Contact</a>
-			</div>
 
-			<div>
-				<a href="./team.html">Team</a>
-			</div>
+			<nav>
 
-			<div>
-				<a href="./press.html">Press</a>
-			</div>
-
-			<div>
-				<a href="./joinus.html">Join Us</a>
-				<div id="submenu">
-					<a href="./Dev.html">Développeur</a>
-					<a href="./TrafficManager.html">Traffic Manager</a>
-					<a href="./RefExpert.html">Expert en référencement</a>
+				<div>
+					<a href="./index.html">Accueil</a>
 				</div>
-			</div>
-			
-			<div>
-				<a href="./faq.html">FAQ</a>
-			</div>
 
-			<div id="navflag">
-				<img src="./lang/FR.png" alt="Français" class="flags">
-				<div id="submenuflag">
-					<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-					<a href=".lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-					<a href=".lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+				<div>
+					<a href="./contact.html">Contact</a>
 				</div>
-			</div>
 
-		</nav>
+				<div>
+					<a href="./team.html">Team</a>
+				</div>
 
+				<div>
+					<a href="./press.html">Press</a>
+				</div>
 
-			<!-- <nav> </nav>  COMMUN AUX PAGES // 1 personne s'occupe du nav  -->
-			
-			</header>
+				<div>
+					<a href="./joinus.html">Join Us</a>
+					<div id="submenu">
+						<a href="./Dev.html">Développeur</a>
+						<a href="./TrafficManager.html">Traffic Manager</a>
+						<a href="./RefExpert.html">Expert en référencement</a>
+					</div>
+				</div>
+				
+				<div>
+					<a href="./faq.html">FAQ</a>
+				</div>
+
+				<div id="navflag">
+					<img src="./lang/FR.png" alt="Français" class="flags">
+					<div id="submenuflag">
+						<a href="./lang/Eng/press.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
+						<a href="./lang/Esp/press.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/press.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+					</div>
+				</div>
+
+			</nav>
+
+		</header>
 			
 			<main class="Site-content">	
 				<article>
@@ -80,6 +115,13 @@
 					<ul><li> E-mail : bubblepoint.entreprise@gmail.com </li></ul>
 					<ul><li> Adresse de Bubble Point : 99 Avenue d'Occitanie, 34090 Montpellier </li></ul>
 					
+<<<<<<< HEAD
+=======
+					<a href="https://fr-fr.facebook.com/"><img   alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
+						
+					<a href="https://twitter.com/?lang=fr"><img   alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
+					
+>>>>>>> 58a1ec18a738b59ccad2e1c27288230507ba7e3a
 
 					<p>Pour toute demande d'interview, veuillez me contacter par mail.</p>
 				</article>
@@ -88,8 +130,7 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.6157938335896!2d3.848519351474102!3d43.63535497901935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6aec3fc4072d7%3A0x1a1585a408bcfed4!2sIUT+Montpellier!5e0!3m2!1sfr!2sfr!4v1542972306676" id="GoogleMaps"></iframe>
 				</aside>
 
-			</main>
-
+			</main>		
 
 		<footer>
 
@@ -98,18 +139,24 @@
 			</div>
 
 			<div>
-				<a href="./conf.html">Declaration de confidentialité</a> | <a href="./press.html">Informations juridiques</a> | <a href="./contact.html">Nous contacter</a>
+
+
+				<ul>
+					<li><a href="./conf.html">Declaration de confidentialité</a></li>
+					<li><a href="./press.html">Informations juridiques</a></li>
+					<li><a href="./contact.html">Nous contacter</a></li>
+				</ul>
 			</div>
 
 			<div class="footer">
 				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
 						
 				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
-
 			</div>
 
 		</footer>
 
 
-		</body>
+	</body>
+	
 </html>

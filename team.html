@@ -4,20 +4,56 @@
 	
 		<head>
 
-			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
+			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="author" content="Jean Simondon, David Binaud, Corentin Sarlin, Andy Houillon">
 			<link rel="stylesheet" type="text/css" href="./css/stylesCommun.css">
 			<link rel="stylesheet" type="text/css" href="./css/stylesTeam.css">
+			<title>Bubble Point -- L'équipe</title>
 			<link rel="icon" type="image/png" href="./images/icons/favicon.ico">
-			<title> L'équipe </title> 
-
 		</head>
 
 	<body class="Site">
-	
+
 		<header>
 			
-			<nav  id="retour_au_top">
+			<!-- MENU BURGER GRACE A LA CHECKBOX -->
+			<div id="menuburger">
+    
+
+			    <!-- cheat pour utiliser check afin dafficher -->
+			    <input type="checkbox" />
+			    
+			  	<!-- dessin du hamburger -->
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    
+			    
+			    <ul id="menu">
+			    	<li>
+			    		<img src="./lang/FR.png" alt="Français" class="flags" id="selectedflag">
+			    		<a href="./lang/Eng/team.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
+						<a href="./lang/Esp/team.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/team.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+					</li>
+			      	<li><a href="./index.html">Accueil</a></li>
+			      	<li><a href="./contact.html">Contact</a></li>
+			     	<li><a href="./team.html">Team</a></li>
+			     	<li><a href="./press.html">Press</a></li>
+			     	<li><a href="./joinus.html">Join Us</a>
+			     		<ul>
+			     			<li><a href="./Dev.html">Développeur</a></li>
+							<li><a href="./TrafficManager.html">Traffic Manager</a></li>
+							<li><a href="./RefExpert.html">Expert en référencement</a></li>
+						</ul></li>
+			     	<li><a href="./faq.html">FAQ</a></li>
+
+			    </ul>
+			</div>
+
+
+			<nav>
 
 				<div>
 					<a href="./index.html">Accueil</a>
@@ -51,9 +87,9 @@
 				<div id="navflag">
 					<img src="./lang/FR.png" alt="Français" class="flags">
 					<div id="submenuflag">
-						<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-						<a href=".lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-						<a href=".lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+						<a href="./lang/Eng/team.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
+						<a href="./lang/Esp/team.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/team.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
 					</div>
 				</div>
 
@@ -61,11 +97,10 @@
 
 		</header>
 		
-			<main class="Site-content">
+			<main class="Site-content" id="retour_au_top">
 				
 				<article>
 
-					<section class="Section_fieldset">
 					
 						<h2>Les fondateurs</h2>
 						
@@ -93,9 +128,9 @@
 
 						
 
-						<fieldset> <legend>Bineaud David</legend>
+						<fieldset> <legend>Binaud David</legend>
 
-							<img id="David" src="./images/Team/David.png" alt="Une photo de David Bianud, ou presque" >
+							<img id="David" src="./images/Team/David.jpg" alt="Une photo de David Bianud, ou presque" >
 
 							<a href="https://www.linkedin.com/in/david-binaud-540192148/"> <img class="Linkedin" src="./images/Linkedin.png" alt="Linkedin" > </a>
 							<p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes. Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
@@ -107,14 +142,14 @@
 
 						<fieldset>	<legend>Houillon Andy</legend>		
 
-							<img id="Andy" src="./images/Team/bonobo.png" alt="Une photo d'Andy Houillon, ou presque." >
+							<img id="Andy" src="./images/Team/bonobo.jpg" alt="Une photo d'Andy Houillon, ou presque." >
 
 							<a href="https://www.linkedin.com/in/andy-houillon-02b80516b/"> <img class="Linkedin" src="./images/Linkedin.png" alt="Linkedin" > </a>
 							<p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes. <strong>Bonobo</strong> victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
 
 						</fieldset>
 					
-					</section>
+					
 
 				</article>
 				<!-- figure et figcaption qui peut être pas mal pour une image-->
@@ -123,13 +158,7 @@
 				<!-- Balises de structuration ex:fieldset, aside, footer, header, h123456, main ,nav -->
 				<!-- Diversité de balises, <p>, listes(ul;ol;li), img ,a ,em,strong,span,blockquote,time -->
 					
-			</main>
-		
-
-
-
-
-
+					</main>		
 
 		<footer>
 
@@ -138,7 +167,13 @@
 			</div>
 
 			<div>
-				<a href="./conf.html">Declaration de confidentialité</a> | <a href="./press.html">Informations juridiques</a> | <a href="./contact.html">Nous contacter</a>
+
+
+				<ul>
+					<li><a href="./conf.html">Declaration de confidentialité</a></li>
+					<li><a href="./press.html">Informations juridiques</a></li>
+					<li><a href="./contact.html">Nous contacter</a></li>
+				</ul>
 			</div>
 
 			<div class="footer">
@@ -152,6 +187,6 @@
 		</footer>
 
 
-
-		</body>
+	</body>
+	
 </html>

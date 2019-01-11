@@ -17,19 +17,40 @@
 
 		<header>
 			
-			<div id="menuburger">  <img src="images/burger.png" alt="burger">
-				
-				<div id="menu2">
-				<div><a href="./index.html">Accueil</a></div>
-				<div><a href="./contact.html">Contact</a></div>
-				<div><a href="./team.html">Team</a></div>
-				<div><a href="./press.html">Press</a></div>
+			<!-- MENU BURGER GRACE A LA CHECKBOX -->
+			<div id="menuburger">
+    
 
+			    <!-- cheat pour utiliser check afin dafficher -->
+			    <input type="checkbox" />
+			    
+			  	<!-- dessin du hamburger -->
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    
+			    
+			    <ul id="menu">
+			    	<li>
+			    		<img src="./lang/FR.png" alt="Français" class="flags" id="selectedflag">
+			    		<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
+						<a href="./lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+					</li>
+			      	<li><a href="./index.html">Accueil</a></li>
+			      	<li><a href="./contact.html">Contact</a></li>
+			     	<li><a href="./team.html">Team</a></li>
+			     	<li><a href="./press.html">Press</a></li>
+			     	<li><a href="./joinus.html">Join Us</a>
+			     		<ul>
+			     			<li><a href="./Dev.html">Développeur</a></li>
+							<li><a href="./TrafficManager.html">Traffic Manager</a></li>
+							<li><a href="./RefExpert.html">Expert en référencement</a></li>
+						</ul></li>
+			     	<li><a href="./faq.html">FAQ</a></li>
 
-
-				</div>
+			    </ul>
 			</div>
-
 
 
 			<nav>
@@ -67,8 +88,8 @@
 					<img src="./lang/FR.png" alt="Français" class="flags">
 					<div id="submenuflag">
 						<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-						<a href=".lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-						<a href=".lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+						<a href="./lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
 					</div>
 				</div>
 
@@ -76,12 +97,12 @@
 
 		</header>
 
-		<main class="Site-content">
+		<main class="Site-content" id="retour_au_top">
 
 
-			<div id="title" class="slide header">
+			<div id="title" class="slide header" >
 
-				<h1>Bubble Point, vos power point en toute légèreté</h1>
+				<h1 >Bubble Point, vos power point en toute légèreté</h1>
 
 			</div>
 
@@ -133,14 +154,42 @@
 			<div id="slide4" class="slide header">
 					
 				<h1>Checkez nos pages Facebook et Twitter !</h1>
-							
-				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
-							
-				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
 
-				Sources : <a href="https://codepen.io/keithclark/pen/JycFw">https://codepen.io/keithclark/pen/JycFw</a>	
-						
+
+				<div id="footer">
+					<div>
+						<img id="logo" src="./images/Logo.png" alt="le logo de bubble point" >
+					</div>
+
+					<div>
+
+
+						<ul>
+							<li><a href="./conf.html">Declaration de confidentialité</a></li>
+							<li><a href="./press.html">Informations juridiques</a></li>
+							<li><a href="./contact.html">Nous contacter</a></li>
+							<li>Sources : <a href="https://codepen.io/keithclark/pen/JycFw">https://codepen.io/keithclark/pen/JycFw</a></li>
+						</ul>
+					</div>
+
+					<div >
+						<a href="https://fr-fr.facebook.com/"><img  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
+								
+						<a href="https://twitter.com/?lang=fr"><img  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
+
+
+					<!--<a href="#retour_au_top"><img id="IconeOnRemonte" src="./images/FAQ/remonter.jpg" alt="image cliquables pour remonter la page"></a>-->
+					</div>
+				</div>		
 			</div>
+
+
+			
+
+
+
+
+
 
 		</main>		
 
@@ -151,18 +200,24 @@
 			</div>
 
 			<div>
-				<a href="./conf.html">Declaration de confidentialité</a> | <a href="./press.html">Informations juridiques</a> | <a href="./contact.html">Nous contacter</a>
+
+
+				<ul>
+					<li><a href="./conf.html">Declaration de confidentialité</a></li>
+					<li><a href="./press.html">Informations juridiques</a></li>
+					<li><a href="./contact.html">Nous contacter</a></li>
+				</ul>
 			</div>
 
 			<div class="footer">
-				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
+				<a href="https://fr-fr.facebook.com/"><img  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
 						
-				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
-
-				<a href="#retour_au_top"><img id="IconeOnRemonte" src="./images/FAQ/remonter.jpg" alt="image cliquables pour remonter la page"></a>
+				<a href="https://twitter.com/?lang=fr"><img  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
+				
 			</div>
 
 		</footer>
+
 
 
 	</body>
