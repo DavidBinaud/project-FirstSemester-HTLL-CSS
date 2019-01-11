@@ -161,6 +161,15 @@ p
   background: #222;
 }
 
+#IconeOnRemonte2 {
+  position:static;
+  bottom:20px;
+  right:20px;
+  width:80px;
+  height:80px;
+}
+
+
 .blockquote{
   display: flex;
 flex-direction:row;
@@ -171,14 +180,16 @@ color:white;}
 blockquote p{color:white;}
 .blockquote cite{color:lightblue;}
 
-#CES{
-height:140px;
-width: 100px;}
 
-.phone{display: none;}
 
 @media(max-width: 768px) {
-  #gants,#lunettes{display: none}
+  #gants,#lunettes,.superflu{display: none}
+
+
+  #CES{display: block;
+    height:100vw; 
+    width:80vw;
+
 
 }
 
