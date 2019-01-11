@@ -143,7 +143,6 @@ p
 #slide1 
 {
   background-image: url("./../images/index/bulles.png");
-  transform: translateZ(-1px) scale(2);
 }
 
 #slide2 
@@ -155,13 +154,26 @@ p
 #slide3
 {
   background-image: url("./../images/index/Teamdiscussion.jpg");
-  transform: translateZ(-1px) scale(2);
 }
 
 #slide4 
 {
   background: #222;
 }
+
+.blockquote{
+  display: flex;
+flex-direction:row;
+justify-content:center;
+alig-items:center;
+color:white;}
+
+blockquote p{color:white;}
+.blockquote cite{color:lightblue;}
+
+#CES{
+height:140px;
+width: 100px;}
 
 .phone{display: none;}
 
