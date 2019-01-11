@@ -169,7 +169,6 @@ p
   height:80px;
 }
 
-
 .blockquote{
   display: flex;
 flex-direction:row;
@@ -179,7 +178,6 @@ color:white;}
 
 blockquote p{color:white;}
 .blockquote cite{color:lightblue;}
-
 
 
 @media(max-width: 768px) {
