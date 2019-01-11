@@ -27,12 +27,12 @@ body {
   margin:auto;
 }
 
+p{text-indent: 10px;}
+
 /*------------------------------------------------------------- NAV-------------------------------------------------------------------- */
 
-#menuburger
-{
-  display: none;
-}
+
+
 
 
 nav
@@ -118,6 +118,7 @@ a:link
 {
   color: #00CCFF;
   text-decoration: none;
+  transition: color 0.5s ease;
 }
 
 a:visited 
@@ -136,49 +137,161 @@ nav div:hover
   height: 20px;
 }
 
-@media(max-width: 480px) {
-
-body {
-   overflow-x: hidden;
-}
-
-
-#menuburger{
-  display:initial;
-}
-
-  #menu2{
-    position:relative;
-    left:-100%;
+#selectedflag{
+  border: 2px solid black;
+  position:relative;
+  top: 2px;
   }
 
-nav{display: none;}
+#menuburger{display: none;}
 
-div:hover #menu2 {
-  position: initial;
+
+
+
+/* MEDIA QUERY */
+
+@media(max-width: 1024px) {
+
+  html{width: 100%;
+    margin: auto;
+    overflow-x: hidden;}
+
+    nav{display: none;}
+
+/* ---------------------------------BURGER ------------------------------*/
+    
+
+
+
+#menuburger
+{
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 50px;
+  padding-bottom: 50px;
+  
+  z-index: 15;
+  
+  -webkit-user-select: none;
+  user-select: none;
 }
+
+#menuburger input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* cache la checkbox */
+  z-index: 16; /* par dessus limage de burger */
+  
+  -webkit-touch-callout: none;
+}
+
+/* barre du burger */
+#menuburger span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuburger span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuburger span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+/* change le burger en croix */
+#menuburger input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+/* cache la barre du milieu */
+#menuburger input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/* sens différent */
+#menuburger input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+/* haut gauche de l'ecran */
+#menu,#menuflag
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li,#menuflag li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/* affichage par la gauche */
+#menuburger input:checked ~ ul
+{
+  transform: none;
+}
+
+
   
 }
 
-@media(max-width: 768px) {
-  div {background-color:white;}
+
+@media(max-width: 480px) {
+
+ #logo{display: none;}
 }
 
-@media(max-width: 992px) {
-  div {background-color:white;}
-}
-
-@media(max-width: 1200px) {
-  div {background-color:white;}
-}
 /*-------------------------------------------------------------------------- END NAV----------------------------------------------------------- */
 
 /* FOOTER */ 
-
-#logo {
-  width:120px;
-  height:80px;
-}
 
 
 /* ---------------------Propre à l'image pour remonter en haut de page grace à lien interne et ancre--------------------------- */
@@ -192,9 +305,11 @@ div:hover #menu2 {
 
 footer div {
   margin: 20px 20px;
+  background-color: #DDDDDD;
+  z-index: 15;
 }
 
-footer {
+footer,#footer {
   width: 100%;
   border-top: 3px solid grey;
   background-color: #DDDDDD;

@@ -1,89 +1,101 @@
 <!DOCTYPE html>
+
 	<html lang=fr>
 	
-		<!-- ne pas abuser des balises br et ne pas oublier de mettre un attribut alt pour une image -->
-
 		<head>
 
-			<meta charset="utf-8"> <!-- declaration de l'utf8 -->
-			<link rel="stylesheet" type="text/css" href="./css/styles_Press.css">
-			<title>Début du projet "Bubble Point"</title>    <!-- TITRE A RAJOUTER-->
-
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="author" content="Andy Houillon">
+			<link rel="stylesheet" type="text/css" href="./../../css/stylesCommun.css">
+			<link rel="stylesheet" type="text/css" href="./../../css/styles_Press.css">
+			<title>Bubble Point -- Debut du Projet</title>
+			<link rel="icon" type="image/png" href="./../../images/icons/favicon.ico">
 		</head>
 
-		<body>
-			<header>
+	<body class="Site">
+
+		<header>
 			
-				<nav>
+			<!-- MENU BURGER GRACE A LA CHECKBOX -->
+			<div id="menuburger">
+    
 
-					<div>
+			    <!-- cheat pour utiliser check afin dafficher -->
+			    <input type="checkbox" />
+			    
+			  	<!-- dessin du hamburger -->
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    
+			    
+			    <ul id="menu">
+			    	<li>
+			    		<img src="./ENG.png" alt="ENG" id="selectedflag" class="flags">
+			    		<a href="./../../Com_press.html"><img src="./../FR.png" alt="French" class="flags"></a>
+						<a href="./../Esp/Com_press.html"><img src="./../Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./../Deu/Com_press.html"><img src="./../Deu/DEU.png" alt="Deutsh" class="flags"></a>
+					</li>
+			      	<li><a href="./index.html">Accueil</a></li>
+			      	<li><a href="./contact.html">Contact</a></li>
+			     	<li><a href="./team.html">Team</a></li>
+			     	<li><a href="./press.html">Press</a></li>
+			     	<li><a href="./joinus.html">Join Us</a>
+			     		<ul>
+			     			<li><a href="./Dev.html">Développeur</a></li>
+							<li><a href="./TrafficManager.html">Traffic Manager</a></li>
+							<li><a href="./RefExpert.html">Expert en référencement</a></li>
+						</ul></li>
+			     	<li><a href="./faq.html">FAQ</a></li>
 
-						<a href="./index.html">Accueil</a>
+			    </ul>
+			</div>
 
+
+			<nav>
+
+				<div>
+					<a href="./index.html">Accueil</a>
+				</div>
+
+				<div>
+					<a href="./contact.html">Contact</a>
+				</div>
+
+				<div>
+					<a href="./team.html">Team</a>
+				</div>
+
+				<div>
+					<a href="./press.html">Press</a>
+				</div>
+
+				<div>
+					<a href="./joinus.html">Join Us</a>
+					<div id="submenu">
+						<a href="./Dev.html">Développeur</a>
+						<a href="./TrafficManager.html">Traffic Manager</a>
+						<a href="./RefExpert.html">Expert en référencement</a>
 					</div>
+				</div>
+				
+				<div>
+					<a href="./faq.html">FAQ</a>
+				</div>
 
-					<div>
-
-						<a href="./contact.html">Contact</a>
-
+				<div id="navflag">
+					<img src="./ENG.png" alt="Eng" class="flags">
+					<div id="submenuflag">
+						<a href="./../../Com_press.html"><img src="./../FR.png" alt="French" class="flags"></a>
+						<a href="./../Esp/Com_press.html"><img src="./../Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./../Deu/Com_press.html"><img src="./../Deu/DEU.png" alt="Deutsh" class="flags"></a>
 					</div>
+				</div>
 
-					<div>
+			</nav>
 
-						<a href="./team.html">Team</a>
-
-					</div>
-
-					<div>
-
-						<a href="./press.html">Press</a>
-
-					</div>
-
-					<div>
-
-						<a href="./joinus.html">Join Us</a>
-
-						<div class="submenu">
-
-							<a href="./Dev.html">Développeur</a>
-
-							<a href="./TrafficManager.html">Traffic Manager</a>
-
-							<a href="./RefExpert.html">Expert en référencement</a>
-
-						</div>
-
-					</div>					
-					
-					<div>
-
-						<a href="./faq.html">FAQ</a>
-
-					</div>
-
-					<div class="navflag">
-
-						<img src="./lang/FR.png" alt="Français" class="flags">
-
-						<div class="submenuflag">
-
-							<a href="./lang/Eng/joinus.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-
-							<a href=".lang/Esp/joinus.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-
-							<a href=".lang/Deu/joinus.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
-
-						</div>
-
-					</div>
-
-				</nav>	
-
-
-			<!-- <nav> </nav>  COMMUN AUX PAGES // 1 personne s'occupe du nav  -->
-			
-			</header>
+		</header>
 		
 
 
@@ -91,24 +103,14 @@
 
 
 
-			<main>	
+			<main class="Site-content">	
 
-				<!-- PRESENTATION DU PRODUIT -->
-				<!-- PHOTO -->
-				<!-- <img src="" alt=""> -->
-
-
-
-				<!-- Balises de structuration ex:article, aside, footer, header, h123456, main ,nav -->
-				<!-- Diversité de balises, <p>, listes(ul;ol;li), img ,a ,em,strong,span,blockquote,time -->
-
-				<!-- figure et figcaption qui peut être pas mal pour une image-->
 
 			<article>
 				<div class="progress_launching">
     				<div>
         				<label for="file">Progrès jusqu'au lancement dans les magasins </label>
-        				<progress id="file" name="file" max="100" value="0">
+        				<progress id="file" max="100" value="0">
             			0%
         				</progress>
     				</div>
@@ -117,10 +119,34 @@
 				<p> Persequantur unum sapientes molestum securitatem animus esse necesse fugiendas esse ad unus vel vivendum ne in possit pro in esse in esse habenas placuisse amicitiae nihil sit opinor necesse frui sapientes opinor opinor habitos cuique quas habitos pluribus laxissimas Graecia satis non tamquam esse quas esse esse laxissimas mirabilia nimis commodissimum molestum non quibusdam satis quas vel unum remittas implicari non ne si pluribus esse laxissimas quos esse qua molestum si habenas quam parturiat non esse illi beate esse commodissimum alienis adducas quos quibusdam non laxissimas persequantur quas vel caput in esse sapientes quod animus pro unum velis est vel.
 				</p>
 			</article>
-			</main>
-			<footer>
-				<img id="Facebook"  alt="Facebook" class="Facebook" src="./images/facebook.png">
-				<img id="Twitter"  alt="Twitter"  class="Twitter" src="./images/twitter.png">
-			</footer>
-		</body>
+			</main>		
+
+		<footer>
+
+			<div>
+					<img id="logo" src="./../../images/Logo.png" alt="le logo de bubble point" >
+			</div>
+
+			<div>
+
+
+				<ul>
+					<li><a href="./conf.html">Declaration de confidentialité</a></li>
+					<li><a href="./press.html">Informations juridiques</a></li>
+					<li><a href="./contact.html">Nous contacter</a></li>
+				</ul>
+			</div>
+
+			<div class="footer">
+				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./../../images/facebook.png"></a>
+						
+				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./../../images/twitter.png"></a>
+				
+			</div>
+
+		</footer>
+
+
+	</body>
+	
 </html>

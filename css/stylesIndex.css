@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
 
 body
 { 
@@ -8,7 +7,6 @@ body
   transform-style: preserve-3d;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: Nunito;
   width: 100%;
   height: 100%;
   text-align: justify;
@@ -192,20 +190,28 @@ p
   background: #222;
 }
 
-#Twitter
-{
-  width: 50px;
-  height: 50px;
-  transform: translateZ(.4px) scale(.6) translateX(40%) translateY(-40%) rotate(5deg);
+
+
+
+
+.phone{display: none;}
+
+
+
+@media(max-width: 768px) {
+  #gants,#lunettes{display: none}
+
 }
 
-#Facebook
-{
-  width: 50px;
-  height: 50px;
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}
 
+
+/*
+@media(max-width: 768){
+  #phone,#phone *{display: block}
+
+
+
+}
 
 
 
@@ -214,3 +220,5 @@ p
    display:none;
   }
 }
+
+*/

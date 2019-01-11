@@ -52,6 +52,8 @@ p
 	width: 95%;
 }
 
+#pleft{margin-left:0;}
+
 main {
 	display: flex;
 	flex-direction : row;
