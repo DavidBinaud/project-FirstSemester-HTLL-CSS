@@ -16,34 +16,9 @@
 	height: 30%;
 }
 
-h3
-{
-	background-color: #DDDDDD;
-	color: #00CCFF;
-	border: 2px solid grey;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
-}
-
-h2
-{
-	background-color: #DDDDDD;
-	color: #00CCFF;
-	border: 2px solid grey;
-	padding: 10px;
-	margin: 30px;
-	text-align: center;
-	width: 25%;
-}
-
 body
 {
-	width: 100%;
-	height: 100%;
 	margin : 0 auto;
-	background-color: #F4FEFE;
 }
 
 p
