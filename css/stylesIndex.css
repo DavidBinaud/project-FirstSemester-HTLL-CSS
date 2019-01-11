@@ -143,6 +143,7 @@ p
 #slide1 
 {
   background-image: url("./../images/index/bulles.png");
+  transform: translateZ(-1px) scale(2);
 }
 
 #slide2 
@@ -154,11 +155,13 @@ p
 #slide3
 {
   background-image: url("./../images/index/Teamdiscussion.jpg");
+  transform: translateZ(-1px) scale(2);
 }
 
 #slide4 
 {
   background: #222;
+  z-index:100;
 }
 
 #IconeOnRemonte2 {
@@ -168,7 +171,6 @@ p
   width:80px;
   height:80px;
 }
-
 
 .blockquote{
   display: flex;
@@ -182,7 +184,6 @@ blockquote p{color:white;}
 .blockquote cite{color:lightblue;}
 
 
-
 @media(max-width: 768px) {
   #gants,#lunettes,.superflu{display: none}
 
@@ -190,8 +191,7 @@ blockquote p{color:white;}
   #CES{display: block;
     height:100vw; 
     width:80vw;
-
-
+}
 }
 }
 
