@@ -1,5 +1,4 @@
-p
-{
+p {
 	width: 95%;
 	text-align: justify;
 }
@@ -42,10 +41,6 @@ main {
     float: left;
 }
 
-article {
-	margin : 20px;
-}
-
 .Linkedin {
 	width: 100px;
 	height:100px;
@@ -59,3 +54,36 @@ article {
 	display: flex;
     margin: auto;
 }
+
+fieldset {
+	margin :10px;
+	width:400px;
+	height:100%;
+}
+
+main img {
+	margin:5px;
+	width: 200px;
+}
+
+ /* ------ Concernant le système de grid -------*/
+
+.Grid {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.Grid-cell {
+	flex: 1/2;
+		margin:20px;
+}
+
+.Grid--center {
+  align-items: center;
+}
+
+
+.Grid-cell--center {
+  align-self: center;
+}
+
