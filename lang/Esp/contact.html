@@ -7,10 +7,10 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta name="author" content="David Binaud">
-			<link rel="stylesheet" type="text/css" href="./css/stylesCommun.css">
-			<link rel="stylesheet" type="text/css" href="./css/stylesContact.css">
-			<title>Bubble Point -- Accueil</title>
-			<link rel="icon" type="image/png" href="./images/icons/favicon.ico">
+			<link rel="stylesheet" type="text/css" href="./../../css/stylesCommun.css">
+			<link rel="stylesheet" type="text/css" href="./../../css/stylesContact.css">
+			<title>Bubble Point -- Contact</title>
+			<link rel="icon" type="image/png" href="./../../images/icons/favicon.ico">
 		</head>
 
 	<body class="Site">
@@ -32,11 +32,12 @@
 			    
 			    <ul id="menu">
 			    	<li>
-			    		<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-						<a href=".lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-						<a href=".lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+			    		<img src="./ENG.png" alt="ENG" id="selectedflag" class="flags">
+			    		<a href="./../../contact.html"><img src="./../FR.png" alt="French" class="flags"></a>
+						<a href="./../Esp/contact.html"><img src="./../Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./../Deu/contact.html"><img src="./../Deu/DEU.png" alt="Deutsh" class="flags"></a>
 					</li>
-			      	<li><a href="./index.html">Accueil</a></li>
+			      	<li><a href="./index.html">Home</a></li>
 			      	<li><a href="./contact.html">Contact</a></li>
 			     	<li><a href="./team.html">Team</a></li>
 			     	<li><a href="./press.html">Press</a></li>
@@ -55,7 +56,7 @@
 			<nav>
 
 				<div>
-					<a href="./index.html">Accueil</a>
+					<a href="./index.html">Home</a>
 				</div>
 
 				<div>
@@ -84,11 +85,11 @@
 				</div>
 
 				<div id="navflag">
-					<img src="./lang/FR.png" alt="Français" class="flags">
+					<img src="./ENG.png" alt="Eng" class="flags">
 					<div id="submenuflag">
-						<a href="./lang/Eng/index.html"><img src="./lang/Eng/ENG.png" alt="English" class="flags"></a>
-						<a href=".lang/Esp/index.html"><img src="./lang/Esp/ESP.png" alt="Espanol" class="flags"></a>
-						<a href=".lang/Deu/index.html"><img src="./lang/Deu/DEU.png" alt="Deutsh" class="flags"></a>
+						<a href="./../../contact.html"><img src="./../FR.png" alt="French" class="flags"></a>
+						<a href="./../Esp/contact.html"><img src="./../Esp/ESP.png" alt="Espanol" class="flags"></a>
+						<a href="./../Deu/contact.html"><img src="./../Deu/DEU.png" alt="Deutsh" class="flags"></a>
 					</div>
 				</div>
 
@@ -102,18 +103,18 @@
 				
 				<!-- Page du Formulaire // demander au prof si formulaire en mode get ou post-->
 				<article>
-					<h1>Nous contacter </h1>
+					<h1>Contact Us </h1>
 					<form action="sendToContactForm.php" method="get">
 	  						
-	<!--i-->  			<fieldset ><legend>Informations Personnelles</legend>
+	<!--i-->  			<fieldset ><legend>Personnal informations</legend>
 							<p>
-	  							<label for="lastname" >Nom<span class="required" >*</span></label>
+	  							<label for="lastname" >Lastname<span class="required" >*</span></label>
 								<input id="lastname" name="lastname" type="text" placeholder="Entrez votre nom ici"  pattern="^[a-zA-Z]*$" autofocus required>
 							</p>
 
 
 							<p>
-								<label for="firstname">Prénom<span class="required">*</span></label>
+								<label for="firstname">Surname<span class="required">*</span></label>
 								<input id="firstname" name="firstname" type="text" placeholder="Entrez votre prénom ici" pattern="^[a-zA-Z]*$" required>
 							</p>
 
@@ -125,7 +126,7 @@
 
 
 							<p>
-								<label for="postcode">Code Postal</label>
+								<label for="postcode">Postal Code</label>
 								<input id="postcode" name="postcode" type="text" placeholder="" pattern="^[0-9]{5}$" ><!--Mettre un pattern sur post code Fait mais a du mettre en mode text au lieu de number// trouver comment patern un number pattern="^[0-9]{5}$"-->
 
 								<!-- TEST avec type number
@@ -136,7 +137,7 @@
 
 
 							<p>
-								<label for="CountryOrigin">Pays d'origine<span class="required">*</span></label>
+								<label for="CountryOrigin">Country<span class="required">*</span></label>
 								<select id="CountryOrigin" name="PaysOrigine">
 									<option value="fr" selected>France</option>
 									<option value="bel">Belgique</option>
@@ -149,7 +150,7 @@
 
 						</fieldset>
 
-	<!--ii-->			<fieldset><legend>Vous avez entendu parlé de nous via<span class="required">*</span>?</legend>
+	<!--ii-->			<fieldset><legend>You heard from us by<span class="required">*</span>?</legend>
 							 <!-- Trouver comment le required// Fait avec checked-->
 							<input id="howfac" name="how" type="radio" value="fac">Facebook
 							<input id="howtwi" name="how" type="radio" value="twi">Twitter
@@ -161,7 +162,7 @@
 
 
 	<!--iii-->				<fieldset>
-								<legend>Date à laquelle vous souhaitez être recontacté<span class="required">*</span></legend>
+								<legend>When do you want to be contacted<span class="required">*</span></legend>
 								<input name="date" type="date" min="2019-01-01" max="2025-01-01" required> <!-- faire en sorte qu'une date précedente ne puisse pas être selectionné // need js-->
 
 							</fieldset>	
@@ -169,7 +170,7 @@
 
 
 	<!--iv-->				<fieldset>
-								<legend>Avez-vous une remarque?</legend>
+								<legend>Any remarks?</legend>
 								<label for="Msg"></label>
 								<textarea id="Msg" name="Msg" rows="5" ></textarea>
 							</fieldset>
@@ -182,7 +183,7 @@
 		<footer>
 
 			<div>
-					<img id="logo" src="./images/Logo.png" alt="le logo de bubble point" >
+					<img id="logo" src="./../../images/Logo.png" alt="le logo de bubble point" >
 			</div>
 
 			<div>
@@ -196,9 +197,9 @@
 			</div>
 
 			<div class="footer">
-				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./images/facebook.png"></a>
+				<a href="https://fr-fr.facebook.com/"><img id="Facebook"  alt="Facebook" class="Facebook" src="./../../images/facebook.png"></a>
 						
-				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./images/twitter.png"></a>
+				<a href="https://twitter.com/?lang=fr"><img id="Twitter"  alt="Twitter"  class="Twitter" src="./../../images/twitter.png"></a>
 				
 			</div>
 
