@@ -177,10 +177,11 @@ p
 
 .blockquote{
   display: flex;
-flex-direction:row;
-justify-content:center;
-align-items:center;
-color:white;}
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
 
 blockquote p{color:white;}
 .blockquote cite{color:lightblue;}
@@ -193,6 +194,7 @@ blockquote p{color:white;}
   #CES{display: block;
     height:100vw; 
     width:80vw;
+}
 }
 }
 
