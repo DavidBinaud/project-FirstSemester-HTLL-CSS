@@ -191,17 +191,3 @@ blockquote p{color:white;}
     width:80vw;
 }
 }
-
-/*
-@media(max-width: 768){
-  #phone,#phone *{display: block}
-
-}
-
-@media only screen and (max-device-width: 768px) {
-  .slide {
-   display:none;
-  }
-}
-
-*/
