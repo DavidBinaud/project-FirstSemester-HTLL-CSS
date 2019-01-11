@@ -1,3 +1,8 @@
+html 
+{
+  height: 100%;
+  overflow: hidden;
+}
 
 body
 { 
@@ -13,45 +18,9 @@ body
   background-color: #F4FEFE;
 }
 
-
 h1
 {
    font-size: 250%
-}
-
-h3
-{
-  background-color: #DDDDDD;
-  color: #00CCFF;
-  border: 2px solid grey;
-  padding: 10px;
-  margin: 30px;
-  text-align: center;
-  width: 25%;
-}
-
-h2
-{
-  background-color: #DDDDDD;
-  color: #00CCFF;
-  border: 2px solid grey;
-  padding: 10px;
-  margin: 30px;
-  text-align: center;
-  width: 25%;
-}
-
-
-
-#container
-{
-  width: 100%;
-}
-
-html 
-{
-  height: 100%;
-  overflow: hidden;
 }
 
 p 
@@ -60,6 +29,11 @@ p
   line-height: 150%;
   color: #333;
   width: 95%;
+}
+
+#container
+{
+  width: 100%;
 }
 
 .slide 
@@ -72,7 +46,6 @@ p
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
   transform-style: inherit;
 }
-
 
 #gants,#lunettes
 {
@@ -190,30 +163,18 @@ p
   background: #222;
 }
 
-
-
-
-
 .phone{display: none;}
-
-
 
 @media(max-width: 768px) {
   #gants,#lunettes{display: none}
 
 }
 
-
-
 /*
 @media(max-width: 768){
   #phone,#phone *{display: block}
 
-
-
 }
-
-
 
 @media only screen and (max-device-width: 768px) {
   .slide {

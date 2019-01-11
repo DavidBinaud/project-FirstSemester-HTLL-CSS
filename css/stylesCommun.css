@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @font-face {
   font-family:RattyTatty;
@@ -15,8 +14,7 @@
   flex: 1;
 }
 
-html
-{
+html {
   width: 100%;
   font-family:Nunito,RattyTatty,Helvetica, arial;
 }
@@ -27,16 +25,23 @@ body {
   margin:auto;
 }
 
-p{text-indent: 10px;}
+p {
+  text-indent: 10px;
+}
+
+h3, h2 {
+  background-color: #DDDDDD;
+  color: #00CCFF;
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 25%;
+}
 
 /*------------------------------------------------------------- NAV-------------------------------------------------------------------- */
 
-
-
-
-
-nav
-{
+nav {
   width: 100%;
   margin: auto;
   height: 100%;
@@ -46,8 +51,7 @@ nav
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,2);
 }
 
-nav a
-{
+nav a {
   background-color: transparent;
   text-decoration:  none;
   text-transform: uppercase;
@@ -56,8 +60,7 @@ nav a
   height: 100%;
 }
 
-nav > div
-{
+nav > div {
   position: relative;
   display: inline;
   background-color: #DDDDDD;
@@ -68,8 +71,7 @@ nav > div
   text-align: center;
 }
 
-#navflag
-{
+#navflag {
   position: absolute;
   right: 0;
   display: block;
@@ -78,8 +80,7 @@ nav > div
   border-right: none;
 }
 
-#submenu
-{
+#submenu {
   position: absolute;
   top: 100%;
   left: 0px;
@@ -91,13 +92,11 @@ nav > div
   border-radius: 0px 0px 5px 5px;
 }
 
-#submenu > a:hover
-{
+#submenu > a:hover {
   color: #565E75;
 }
 
-#submenuflag
-{
+#submenuflag {
   position: absolute;
   top: 100%;
   display:none;
@@ -108,45 +107,37 @@ nav > div
   border-radius: 0px 0px 10px 10px;
 }
 
-div:hover #submenu, div:hover #submenuflag
-{
+div:hover #submenu, div:hover #submenuflag {
   display:block;
   background-color: #DDDDDD;
 }
 
-a:link 
-{
+a:link  {
   color: #00CCFF;
   text-decoration: none;
   transition: color 0.5s ease;
 }
 
-a:visited 
-{
+a:visited  {
   color: #00CCFF;
 }
 
-nav div:hover
-{
+nav div:hover {
   background-color: #CCCCCC;
 }
 
-.flags
-{
+.flags {
   width: 30px;
   height: 20px;
 }
 
-#selectedflag{
+#selectedflag {
   border: 2px solid black;
   position:relative;
   top: 2px;
-  }
+}
 
 #menuburger{display: none;}
-
-
-
 
 /* MEDIA QUERY */
 
@@ -156,12 +147,9 @@ nav div:hover
     margin: auto;
     overflow-x: hidden;}
 
-    nav{display: none;}
+  nav{display: none;}
 
 /* ---------------------------------BURGER ------------------------------*/
-    
-
-
 
 #menuburger
 {
@@ -194,7 +182,8 @@ nav div:hover
   -webkit-touch-callout: none;
 }
 
-/* barre du burger */
+/*----------------- barre du burger -----------------*/
+
 #menuburger span
 {
   display: block;
@@ -279,37 +268,18 @@ nav div:hover
   transform: none;
 }
 
-
-  
-}
-
-
 @media(max-width: 480px) {
 
  #logo{display: none;}
 }
 
+} /* accolade fermante du media querry */
+
 /*-------------------------------------------------------------------------- END NAV----------------------------------------------------------- */
 
 /* FOOTER */ 
 
-
-/* ---------------------Propre à l'image pour remonter en haut de page grace à lien interne et ancre--------------------------- */
-#IconeOnRemonte {
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  width:80px;
-  height:80px;
-}
-
-footer div {
-  margin: 20px 20px;
-  background-color: #DDDDDD;
-  z-index: 15;
-}
-
-footer,#footer {
+footer, #footer {
   width: 100%;
   border-top: 3px solid grey;
   background-color: #DDDDDD;
@@ -320,12 +290,25 @@ footer,#footer {
   z-index: 15;
 }
 
-/* END FOOTER */
-
-
+footer div {
+  margin: 20px 20px;
+  background-color: #DDDDDD;
+  z-index: 15;
+}
 
 #logo {
   width:120px;
   height:80px;
 }
 
+/* ---------------------Propre à l'image pour remonter en haut de page grace à lien interne et ancre--------------------------- */
+
+#IconeOnRemonte {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:80px;
+  height:80px;
+}
+
+/* END FOOTER */
