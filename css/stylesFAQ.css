@@ -93,3 +93,14 @@ aside > a {
   max-width:1000px;
   margin:auto;
 }
+
+/* --------------------  Un peu de responsive ------------------------ */
+
+@media(max-width: 480px) {
+
+aside {display: none;}
+
+article {
+  width:100%;
+}
+}
